@@ -18,6 +18,7 @@
           <e p="Resources.Designer.cs" t="Include" />
           <e p="Resources.resx" t="Include" />
         </e>
+        <e p="Styles.cs" t="Include" />
         <e p="Styles.xaml" t="Include" />
       </e>
       <e p="Calculator.sln" t="IncludeFlat" />

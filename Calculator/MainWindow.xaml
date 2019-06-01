@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
         FontFamily="Semoe UI Light" FontSize="28" FontWeight="SemiBold"
-        Background="#004d61"
+        Background="#393e46"
         ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen"
-        Title="Calculator" Height="585" Width="350">
+        Title="Calculator" Height="595" Width="350">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20"/>
@@ -35,32 +35,32 @@
         <TextBox x:Name="BottomTextBox" Style="{StaticResource TextBoxStyle}" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="4"
                  Margin="0, 0, 0, 5"/>
         
-        <Button Content="" x:Name="BlankButton" Style="{StaticResource LeftButton}" Grid.Column="1" Grid.Row="3"/>
+        <Button Content="" x:Name="BlankButton" Style="{StaticResource Button}" Grid.Column="1" Grid.Row="3"/>
         <Button Content="√" x:Name="SqrRootButton" Style="{StaticResource Button}" Grid.Column="2" Grid.Row="3"/>
         <Button Content="x^2" x:Name="SqrButton" Style="{StaticResource Button}" Grid.Column="3" Grid.Row="3"/>
         <Button Content="1/x" x:Name="InverseButton" Style="{StaticResource Button}" Grid.Column="4" Grid.Row="3"/>
         
-        <Button Content="^" x:Name="CaretButton" Style="{StaticResource LeftButton}" Grid.Column="1" Grid.Row="4"/>
+        <Button Content="^" x:Name="CaretButton" Style="{StaticResource Button}" Grid.Column="1" Grid.Row="4"/>
         <Button Content="Clear" x:Name="ClearButton" Style="{StaticResource Button}" Grid.Column="2" Grid.Row="4"/>
         <Button Content="Back" x:Name="BackButton" Style="{StaticResource Button}" Grid.Column="3" Grid.Row="4"/>
         <Button Content="/" x:Name="DivideButton" Style="{StaticResource Button}" Grid.Column="4" Grid.Row="4"/>
         
-        <Button Content="7" x:Name="SevenButton" Style="{StaticResource LeftButton}" Grid.Column="1" Grid.Row="5"/>
+        <Button Content="7" x:Name="SevenButton" Style="{StaticResource Button}" Grid.Column="1" Grid.Row="5"/>
         <Button Content="8" x:Name="EightButton" Style="{StaticResource Button}" Grid.Column="2" Grid.Row="5"/>
         <Button Content="8" x:Name="NineButton" Style="{StaticResource Button}" Grid.Column="3" Grid.Row="5"/>
         <Button Content="*" x:Name="MultiplyButton" Style="{StaticResource Button}" Grid.Column="4" Grid.Row="5"/>
         
-        <Button Content="4" x:Name="FourButton" Style="{StaticResource LeftButton}" Grid.Column="1" Grid.Row="6"/>
+        <Button Content="4" x:Name="FourButton" Style="{StaticResource Button}" Grid.Column="1" Grid.Row="6"/>
         <Button Content="5" x:Name="FiveButton" Style="{StaticResource Button}" Grid.Column="2" Grid.Row="6"/>
         <Button Content="6" x:Name="SixButton" Style="{StaticResource Button}" Grid.Column="3" Grid.Row="6"/>
         <Button Content="-" x:Name="MinusButton" Style="{StaticResource Button}" Grid.Column="4" Grid.Row="6"/>
         
-        <Button Content="1" x:Name="OneButton" Style="{StaticResource LeftButton}" Grid.Column="1" Grid.Row="7"/>
+        <Button Content="1" x:Name="OneButton" Style="{StaticResource Button}" Grid.Column="1" Grid.Row="7"/>
         <Button Content="2" x:Name="TwoButton" Style="{StaticResource Button}" Grid.Column="2" Grid.Row="7"/>
         <Button Content="3" x:Name="ThreeButton" Style="{StaticResource Button}" Grid.Column="3" Grid.Row="7"/>
         <Button Content="+" x:Name="PlusButton" Style="{StaticResource Button}" Grid.Column="4" Grid.Row="7"/>
         
-        <Button Content="+/-" x:Name="SwitchSignButton" Style="{StaticResource LeftButton}" Grid.Column="1" Grid.Row="8"/>
+        <Button Content="+/-" x:Name="SwitchSignButton" Style="{StaticResource Button}" Grid.Column="1" Grid.Row="8"/>
         <Button Content="0" x:Name="ZeroButton" Style="{StaticResource Button}" Grid.Column="2" Grid.Row="8"/>
         <Button Content="." x:Name="DecimalButton" Style="{StaticResource Button}" Grid.Column="3" Grid.Row="8"/>
         <Button Content="=" x:Name="EqualsButton" Style="{StaticResource Button}" Grid.Column="4" Grid.Row="8"/>

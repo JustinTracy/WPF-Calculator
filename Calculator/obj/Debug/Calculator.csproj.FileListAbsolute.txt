@@ -15,3 +15,4 @@ C:\Users\justi\RiderProjects\Calculator\Calculator\obj\Debug\Calculator.csproj.G
 C:\Users\justi\RiderProjects\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\justi\RiderProjects\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\justi\RiderProjects\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\justi\RiderProjects\Calculator\Calculator\obj\Debug\Styles.g.cs
