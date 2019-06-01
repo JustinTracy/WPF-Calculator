@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcd3628e-6810-4399-abde-8770df8a10fd" name="Default Changelist" comment="" />
+    <list default="true" id="fcd3628e-6810-4399-abde-8770df8a10fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/Styles.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/Styles.xaml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,42 +13,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calculator/MainWindow.xaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="-360">
+              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
               <folding>
-                <marker date="1559360289296" expanded="true" signature="0:592" ph="&lt;&lt;Grid&gt;&#10;        &#10;    &lt;/Grid&gt;.../&gt;" />
-                <marker date="1559360289296" expanded="true" signature="454:582" ph="&lt;.../&gt;" />
-                <marker date="1559360289296" expanded="true" signature="469:570" ph="&lt;.../&gt;" />
+                <marker date="1559363237739" expanded="true" signature="0:4554" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;        &#10;        &lt;TextBox x:Name=&quot;TopTextBox&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;4&quot;/&gt;&#10;        &lt;TextBox x:Name=&quot;BottomTextBox&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;2&quot; Grid.ColumnSpan=&quot;4&quot;/&gt;&#10;        &#10;        &lt;Button x:Name=&quot;BlankButton&quot; Style=&quot;ButtonStyle&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button x:Name=&quot;SqrRootButton&quot; Style=&quot;ButtonStyle&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button x:Name=&quot;SqrButton&quot; Style=&quot;ButtonStyle&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button x:Name=&quot;InverseButton&quot; Style=&quot;ButtonStyle&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &#10;    &lt;/Grid&gt;.../&gt;" />
+                <marker date="1559363237739" expanded="true" signature="625:4544" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;TextBox x:Name=&quot;TopTextBox&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;4&quot;/&gt; &lt;TextBox x:Name=&quot;BottomTextBox&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;2&quot; Grid.ColumnSpan=&quot;4&quot;/&gt; &lt;Button x:Name=&quot;BlankButton&quot; Style=&quot;ButtonStyle&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button x:Name=&quot;SqrRootButton&quot; Style=&quot;ButtonStyle&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button x:Name=&quot;SqrButton&quot; Style=&quot;ButtonStyle&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button x:Name=&quot;InverseButton&quot; Style=&quot;ButtonStyle&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;3&quot;/&gt;.../&gt;" />
+                <marker date="1559363237739" expanded="true" signature="640:964" ph="&lt;&lt;ColumnDefinition Width=&quot;20&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;20&quot;/&gt;.../&gt;" />
+                <marker date="1559363237739" expanded="true" signature="973:1451" ph="&lt;&lt;RowDefinition Height=&quot;20&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;20&quot;/&gt;.../&gt;" />
+                <marker date="1559363237739" expanded="true" signature="1595:1752" ph="&lt;.../&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Calculator/App.xaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-              <folding>
-                <marker date="1559360289282" expanded="true" signature="0:403" ph="&lt;&lt;Application.Resources&gt;&#10;         &#10;    &lt;/Application.Resources&gt;.../&gt;" />
-                <marker date="1559360289282" expanded="true" signature="284:388" ph="&lt;.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Calculator/Styles.xaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+            <state relative-caret-position="210">
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
               <folding>
-                <marker date="1559360289261" expanded="true" signature="0:365" ph="&lt;.../&gt;" />
-                <marker date="1559360289261" expanded="true" signature="171:338" ph="&lt;.../&gt;" />
+                <marker date="1559363295147" expanded="true" signature="0:1022" ph="&lt;&lt;Style TargetType=&quot;Button&quot; x:Key=&quot;ButtonStyle&quot;&gt;&#10;        &lt;Setter Property=&quot;Background&quot; Value=&quot;##348498&quot;/&gt;&#10;        &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##fcf9ec&quot;/&gt;&#10;    &lt;/Style&gt;.../&gt;" />
+                <marker date="1559363295147" expanded="true" signature="171:489" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;##348498&quot;/&gt; &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##fcf9ec&quot;/&gt;.../&gt;" />
+                <marker date="1559363295147" expanded="true" signature="499:821" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;##ffc785&quot;/&gt; &lt;Setter Property=&quot;Foreground&quot; Value=&quot;White&quot;/&gt; &lt;Setter Property=&quot;Width&quot; Value=&quot;66&quot;/&gt; &lt;Setter Property=&quot;Height&quot; Value=&quot;66.66&quot;/&gt; &lt;Setter Property=&quot;Margin&quot; Value=&quot;1, 1, 0, 0&quot;/&gt;.../&gt;" />
+                <marker date="1559363295147" expanded="true" signature="831:995" ph="&lt;.../&gt;" />
               </folding>
             </state>
           </provider>
@@ -52,8 +47,13 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/wpf/src/Framework/System/Windows/Markup/XamlReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Calculator/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Calculator/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Calculator/App.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Calculator/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Calculator/Styles.xaml" root0="FORCE_HIGHLIGHTING" />
@@ -61,9 +61,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Calculator/Styles.xaml" />
         <option value="$PROJECT_DIR$/Calculator/App.xaml" />
         <option value="$PROJECT_DIR$/Calculator/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/Calculator/Styles.xaml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/vcs.xml" />
       </list>
     </option>
   </component>
@@ -73,11 +80,13 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -96,13 +105,15 @@
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
@@ -121,19 +132,19 @@
   </component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Calculator/bin/Debug/Calculator.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Calculator/bin/Debug" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Calculator/Calculator.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.8" />
       <method v="2">
         <option name="Build" enabled="true" />
       </method>
@@ -149,12 +160,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559360042638</updated>
-      <workItem from="1559360044114" duration="245000" />
+      <workItem from="1559360044114" duration="848000" />
+      <workItem from="1559360909998" duration="2354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245000" />
+    <option name="totallyTimeSpent" value="3202000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -169,37 +181,38 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="XAML Preview" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.399361" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="XAML Preview" order="12" weight="0.3290735" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.3290735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -220,31 +233,55 @@
         <state relative-caret-position="90">
           <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
           <folding>
-            <marker date="1559360289282" expanded="true" signature="0:403" ph="&lt;&lt;Application.Resources&gt;&#10;         &#10;    &lt;/Application.Resources&gt;.../&gt;" />
-            <marker date="1559360289282" expanded="true" signature="284:388" ph="&lt;.../&gt;" />
+            <marker date="1559360289282" expanded="true" signature="0:403" ph="&lt;&lt;Application.Resources&gt;&#10;         &lt;ResourceDictionary Source=&quot;Styles.xaml&quot;/&gt;&#10;    &lt;/Application.Resources&gt;.../&gt;" />
+            <marker date="1559360289282" expanded="true" signature="284:388" ph="&lt;&lt;ResourceDictionary Source=&quot;Styles.xaml&quot;/&gt;.../&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Calculator/Styles.xaml">
+    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/wpf/src/Framework/System/Windows/Markup/XamlReader.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        <state relative-caret-position="42">
+          <caret line="407" column="36" selection-start-line="407" selection-start-column="35" selection-end-line="407" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculator/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding>
-            <marker date="1559360289261" expanded="true" signature="0:365" ph="&lt;.../&gt;" />
-            <marker date="1559360289261" expanded="true" signature="171:338" ph="&lt;.../&gt;" />
+            <marker date="1559360044728" expanded="true" signature="20:238" ph="{...}" />
+            <marker date="1559360044728" expanded="true" signature="27:105" ph="/// Interaction logic for MainWindow.xaml ... " />
+            <marker date="1559360044728" expanded="true" signature="141:236" ph="{...}" />
+            <marker date="1559360044728" expanded="true" signature="175:230" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Calculator/MainWindow.xaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="-360">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
           <folding>
-            <marker date="1559360289296" expanded="true" signature="0:592" ph="&lt;&lt;Grid&gt;&#10;        &#10;    &lt;/Grid&gt;.../&gt;" />
-            <marker date="1559360289296" expanded="true" signature="454:582" ph="&lt;.../&gt;" />
-            <marker date="1559360289296" expanded="true" signature="469:570" ph="&lt;.../&gt;" />
+            <marker date="1559363237739" expanded="true" signature="0:4554" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;        &#10;        &lt;TextBox x:Name=&quot;TopTextBox&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;4&quot;/&gt;&#10;        &lt;TextBox x:Name=&quot;BottomTextBox&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;2&quot; Grid.ColumnSpan=&quot;4&quot;/&gt;&#10;        &#10;        &lt;Button x:Name=&quot;BlankButton&quot; Style=&quot;ButtonStyle&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button x:Name=&quot;SqrRootButton&quot; Style=&quot;ButtonStyle&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button x:Name=&quot;SqrButton&quot; Style=&quot;ButtonStyle&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button x:Name=&quot;InverseButton&quot; Style=&quot;ButtonStyle&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1559363237739" expanded="true" signature="625:4544" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;TextBox x:Name=&quot;TopTextBox&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;4&quot;/&gt; &lt;TextBox x:Name=&quot;BottomTextBox&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;2&quot; Grid.ColumnSpan=&quot;4&quot;/&gt; &lt;Button x:Name=&quot;BlankButton&quot; Style=&quot;ButtonStyle&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button x:Name=&quot;SqrRootButton&quot; Style=&quot;ButtonStyle&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button x:Name=&quot;SqrButton&quot; Style=&quot;ButtonStyle&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button x:Name=&quot;InverseButton&quot; Style=&quot;ButtonStyle&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;3&quot;/&gt;.../&gt;" />
+            <marker date="1559363237739" expanded="true" signature="640:964" ph="&lt;&lt;ColumnDefinition Width=&quot;20&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;20&quot;/&gt;.../&gt;" />
+            <marker date="1559363237739" expanded="true" signature="973:1451" ph="&lt;&lt;RowDefinition Height=&quot;20&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;20&quot;/&gt;.../&gt;" />
+            <marker date="1559363237739" expanded="true" signature="1595:1752" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculator/Styles.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <marker date="1559363295147" expanded="true" signature="0:1022" ph="&lt;&lt;Style TargetType=&quot;Button&quot; x:Key=&quot;ButtonStyle&quot;&gt;&#10;        &lt;Setter Property=&quot;Background&quot; Value=&quot;##348498&quot;/&gt;&#10;        &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##fcf9ec&quot;/&gt;&#10;    &lt;/Style&gt;.../&gt;" />
+            <marker date="1559363295147" expanded="true" signature="171:489" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;##348498&quot;/&gt; &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##fcf9ec&quot;/&gt;.../&gt;" />
+            <marker date="1559363295147" expanded="true" signature="499:821" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;##ffc785&quot;/&gt; &lt;Setter Property=&quot;Foreground&quot; Value=&quot;White&quot;/&gt; &lt;Setter Property=&quot;Width&quot; Value=&quot;66&quot;/&gt; &lt;Setter Property=&quot;Height&quot; Value=&quot;66.66&quot;/&gt; &lt;Setter Property=&quot;Margin&quot; Value=&quot;1, 1, 0, 0&quot;/&gt;.../&gt;" />
+            <marker date="1559363295147" expanded="true" signature="831:995" ph="&lt;.../&gt;" />
           </folding>
         </state>
       </provider>
