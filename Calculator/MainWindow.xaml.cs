@@ -5,9 +5,8 @@ using System.Windows.Media;
 
 namespace Calculator
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    //TODO: to the negative power, chain operating, Change Color scheme, keyboard events, fix divide by zero(maybe)
+    
     public partial class MainWindow
     {
         private string firstNum = "";
@@ -21,8 +20,6 @@ namespace Calculator
         private bool isDividing;
         private bool isCarreting;
         private bool isOperating;
-        
-        //TODO to the negative power, chain operating
         
         public MainWindow()
         {
@@ -46,8 +43,11 @@ namespace Calculator
             {
                 if (isOnFirstNum)
                 {
+                    int index = BottomTextBox.Text.IndexOf("^", StringComparison.Ordinal);
+                    firstNum = BottomTextBox.Text.Substring(0, index);
                     double total = Math.Pow(Double.Parse(firstNum), Double.Parse(power));
                     TopTextBox.Clear();
+                    secondNum = "";
                     BottomTextBox.Text = total.ToString();
                     firstNum = total.ToString();
                 }
@@ -92,29 +92,32 @@ namespace Calculator
                 BottomTextBox.Text = total.ToString();
                 firstNum = total.ToString();
             }
-
+            
             isOnFirstNum = true;
             isAdding = false;
             isSubtracting = false;
             isMultiplying = false;
             isDividing = false;
             isCarreting = false;
+            power = "";
         }
 
         private void Caret(object sender, RoutedEventArgs routedEventArgs)
         {
-            if (isOnFirstNum)
+            if (!isCarreting)
             {
-                if (firstNum.Equals("") || firstNum.Contains("^")) return;
-                BottomTextBox.AppendText("^");
-                isCarreting = true;
-                isOnFirstNum = false;
-            }
-            else
-            {
-                if (secondNum.Equals("") || secondNum.Contains("^")) return;
-                BottomTextBox.AppendText("^");
-                isCarreting = true;
+                if (isOnFirstNum)
+                {
+                    if (firstNum.Equals("") || firstNum.Contains("^")) return;
+                    BottomTextBox.AppendText("^");
+                    isCarreting = true;
+                }
+                else
+                {
+                    if (secondNum.Equals("") || secondNum.Contains("^")) return;
+                    BottomTextBox.AppendText("^");
+                    isCarreting = true;
+                }
             }
         }
 
@@ -168,16 +171,24 @@ namespace Calculator
 
         private void SwitchSigns(object sender, RoutedEventArgs routedEventArgs)
         {
-            if (isOnFirstNum)
+            if (!isCarreting)
             {
-                if (!firstNum.Equals(""))
+                if (isOnFirstNum)
                 {
-                    if (firstNum.Substring(0, 1).Equals("-"))
+                    if (!firstNum.Equals(""))
                     {
-                        if (firstNum.Equals("-"))
+                        if (firstNum.Substring(0, 1).Equals("-"))
                         {
-                            firstNum = "";
-                            BottomTextBox.Text = firstNum;
+                            if (firstNum.Equals("-"))
+                            {
+                                firstNum = "";
+                                BottomTextBox.Text = firstNum;
+                            }
+                            else
+                            {
+                                firstNum = (Double.Parse(firstNum) * -1).ToString();
+                                BottomTextBox.Text = firstNum;
+                            }
                         }
                         else
                         {
@@ -187,43 +198,64 @@ namespace Calculator
                     }
                     else
                     {
-                        firstNum = (Double.Parse(firstNum) * -1).ToString();
+                        firstNum = "-";
                         BottomTextBox.Text = firstNum;
                     }
                 }
                 else
                 {
-                    firstNum = "-";
-                    BottomTextBox.Text = firstNum;
-                }
-            }
-            else
-            {
-                if (!secondNum.Equals(""))
-                {
-                    if (secondNum.Substring(0, 1).Equals("-"))
+                    if (!secondNum.Equals(""))
                     {
-                        if (secondNum.Equals("-"))
+                        if (secondNum.Substring(0, 1).Equals("-"))
                         {
-                            secondNum = "";
-                            BottomTextBox.Text = secondNum;
+                            if (secondNum.Equals("-"))
+                            {
+                                secondNum = "";
+                                BottomTextBox.Text = secondNum;
+                            }
+                            else
+                            {
+                                secondNum = (-Double.Parse(secondNum)).ToString();
+                                BottomTextBox.Text = secondNum;
+                            }
                         }
                         else
                         {
-                            secondNum = (-Double.Parse(secondNum)).ToString();
+                            secondNum = (Double.Parse(secondNum) * -1).ToString();
                             BottomTextBox.Text = secondNum;
                         }
                     }
                     else
                     {
-                        secondNum = (Double.Parse(secondNum) * -1).ToString();
+                        secondNum = "-";
                         BottomTextBox.Text = secondNum;
                     }
                 }
+            }
+            else
+            {
+                if (power.Equals(""))
+                {
+                    power = "-";
+                    BottomTextBox.AppendText(power);
+                }
+                else if (power.Equals("-"))
+                {
+                    string currentString = BottomTextBox.Text.Substring(0, BottomTextBox.Text.Length - 1);
+                    power = "";
+                    BottomTextBox.Text = currentString;
+                }
+                else if (power.Contains("-"))
+                {
+                    string currentString = BottomTextBox.Text.Substring(0, BottomTextBox.Text.Length - power.Length);
+                    power = (-Double.Parse(power)).ToString();
+                    BottomTextBox.Text = currentString + power;
+                }
                 else
                 {
-                    secondNum = "-";
-                    BottomTextBox.Text = secondNum;
+                    string currentString = BottomTextBox.Text.Substring(0, BottomTextBox.Text.Length - power.Length);
+                    power = (-Double.Parse(power)).ToString();
+                    BottomTextBox.Text = currentString + power;
                 }
             }
         }
@@ -384,6 +416,7 @@ namespace Calculator
             BottomTextBox.Clear();
             firstNum = "";
             secondNum = "";
+            power = "";
             isOnFirstNum = true;
             
             isAdding = false;
