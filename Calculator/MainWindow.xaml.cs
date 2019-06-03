@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.Remoting.Channels;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
@@ -12,12 +13,41 @@ namespace Calculator
     {
         private string firstNum;
         private string secondNum;
-
+        
         private bool isOnFirstNum = true;
+        private bool isAdding;
+        private bool isSubtracting;
+        private bool isMultiplying;
+        private bool isDividing;
+        
         public MainWindow()
         {
             InitializeComponent();
             SetUniqueColors();
+        }
+
+        private void Equals(object sender, RoutedEventArgs routedEventArgs)
+        {
+            if (isAdding)
+            {
+                double total = Double.Parse(firstNum) + Double.Parse(secondNum);
+                TopTextBox.Clear();
+                secondNum = "";
+                BottomTextBox.Text = total.ToString();
+                firstNum = total.ToString();
+                isAdding = false;
+            }
+
+            isOnFirstNum = true;
+        }
+
+        private void Add(object sender, RoutedEventArgs routedEventArgs)
+        {
+            isAdding = true;
+            isOnFirstNum = false;
+            TopTextBox.Text = firstNum;
+            BottomTextBox.Clear();
+            TopTextBox.AppendText(" + ");
         }
 
         private void DisplayNumber(object sender, RoutedEventArgs routedEventArgs)
@@ -26,13 +56,13 @@ namespace Calculator
 
             if (isOnFirstNum)
             {
-                firstNum += tag.ToString();
                 BottomTextBox.AppendText(tag.ToString());
+                firstNum = BottomTextBox.Text;
             }
             else
             {
-                secondNum += tag.ToString();
-                TopTextBox.AppendText(tag.ToString());
+                BottomTextBox.AppendText(tag.ToString());
+                secondNum = BottomTextBox.Text;
             }
         }
 
@@ -49,14 +79,18 @@ namespace Calculator
                     currentString = BottomTextBox.Text.Substring(0, textLength - 1);
                     BottomTextBox.Text = currentString;
                     firstNum = currentString;
+                    Console.WriteLine(1);
                 }
             }
             else
             {
-                textLength = TopTextBox.ToString().Length;
-                currentString = TopTextBox.Text.Substring(0, textLength - 1);
-                TopTextBox.Text = currentString;
-                secondNum = currentString;
+                if (!BottomTextBox.Text.Equals(""))
+                {
+                    textLength = BottomTextBox.Text.Length;
+                    currentString = BottomTextBox.Text.Substring(0, textLength - 1);
+                    BottomTextBox.Text = currentString;
+                    secondNum = currentString;
+                }
             }
         }
 
@@ -66,6 +100,12 @@ namespace Calculator
             BottomTextBox.Clear();
             firstNum = "";
             secondNum = "";
+            isOnFirstNum = true;
+            
+            isAdding = false;
+            isSubtracting = false;
+            isMultiplying = false;
+            isDividing = false;
         }
         
         private void SetUniqueColors()
