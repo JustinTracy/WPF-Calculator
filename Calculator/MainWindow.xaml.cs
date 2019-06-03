@@ -181,7 +181,40 @@ namespace Calculator
 
         private void Decimal(object sender, RoutedEventArgs routedEventArgs)
         {
-            BottomTextBox.AppendText(".");
+            if (isOnFirstNum)
+            {
+                if (firstNum.Contains(".")) return;
+                if (!firstNum.Equals(""))
+                {
+                    if (!firstNum.Equals("0."))
+                    {
+                        firstNum += ".";
+                        BottomTextBox.AppendText(".");
+                    }
+                }
+                else
+                {
+                    firstNum = "0.";
+                    BottomTextBox.Text = "0.";
+                }
+            }
+            else
+            {
+                if (secondNum.Contains(".")) return;
+                if (!secondNum.Equals(""))
+                {
+                    if (!secondNum.Equals("0."))
+                    {
+                        secondNum += ".";
+                        BottomTextBox.AppendText(".");
+                    }
+                }
+                else
+                {
+                    secondNum = "0.";
+                    BottomTextBox.Text = "0.";
+                }
+            }
         }
 
         private void Add(object sender, RoutedEventArgs routedEventArgs)
