@@ -3,8 +3,6 @@
                     x:Class="Calculator.Styles">
     
     <Style TargetType="Button" x:Key="Button">
-        <EventSetter Event="MouseEnter" Handler="Button_OnHover"/>
-        <EventSetter Event="MouseLeave" Handler="Button_OnLeave"/>
         <Setter Property="Foreground" Value="Black"/>
         <Setter Property="Width" Value="72"/>
         <Setter Property="Height" Value="66.66"/>
@@ -12,6 +10,8 @@
     </Style>
     
     <Style TargetType="TextBox" x:Key="TextBoxStyle">
+        <Setter Property="IsReadOnly" Value="True"/>
+        <Setter Property="Cursor" Value="Arrow"/>
         <Setter Property="Width" Value="295"/>
         <Setter Property="Height" Value="50"></Setter>
     </Style>

@@ -1,4 +1,7 @@
-﻿using System.Windows.Media;
+﻿using System;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace Calculator
 {
@@ -7,12 +10,32 @@ namespace Calculator
     /// </summary>
     public partial class MainWindow
     {
+        private string currentNum;
+        private string secondNum;
+
+        private bool isOnFirstNum = true;
         public MainWindow()
         {
             InitializeComponent();
             SetUniqueColors();
         }
 
+        private void DisplayNumber(object sender, RoutedEventArgs routedEventArgs)
+        {
+            var tag = ((Button)sender).Tag;
+
+            if (isOnFirstNum)
+            {
+                currentNum += tag.ToString();
+                BottomTextBox.AppendText(tag.ToString());
+            }
+            else
+            {
+                secondNum += tag.ToString();
+                TopTextBox.AppendText(tag.ToString());
+            }
+        }
+        
         private void SetUniqueColors()
         {
             Brush numberColor = Brushes.White;

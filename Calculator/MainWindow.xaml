@@ -45,19 +45,19 @@
         <Button Content="Back" x:Name="BackButton" Style="{StaticResource Button}" Grid.Column="3" Grid.Row="4"/>
         <Button Content="/" x:Name="DivideButton" Style="{StaticResource Button}" Grid.Column="4" Grid.Row="4"/>
         
-        <Button Content="7" x:Name="SevenButton" Style="{StaticResource Button}" Grid.Column="1" Grid.Row="5"/>
-        <Button Content="8" x:Name="EightButton" Style="{StaticResource Button}" Grid.Column="2" Grid.Row="5"/>
-        <Button Content="8" x:Name="NineButton" Style="{StaticResource Button}" Grid.Column="3" Grid.Row="5"/>
+        <Button Tag="7" Click="DisplayNumber" Content="7" x:Name="SevenButton" Style="{StaticResource Button}" Grid.Column="1" Grid.Row="5"/>
+        <Button Tag="8" Click="DisplayNumber" Content="8" x:Name="EightButton" Style="{StaticResource Button}" Grid.Column="2" Grid.Row="5"/>
+        <Button Tag="9" Click="DisplayNumber" Content="8" x:Name="NineButton" Style="{StaticResource Button}" Grid.Column="3" Grid.Row="5"/>
         <Button Content="*" x:Name="MultiplyButton" Style="{StaticResource Button}" Grid.Column="4" Grid.Row="5"/>
         
-        <Button Content="4" x:Name="FourButton" Style="{StaticResource Button}" Grid.Column="1" Grid.Row="6"/>
-        <Button Content="5" x:Name="FiveButton" Style="{StaticResource Button}" Grid.Column="2" Grid.Row="6"/>
-        <Button Content="6" x:Name="SixButton" Style="{StaticResource Button}" Grid.Column="3" Grid.Row="6"/>
+        <Button Tag="4" Click="DisplayNumber" Content="4" x:Name="FourButton" Style="{StaticResource Button}" Grid.Column="1" Grid.Row="6"/>
+        <Button Tag="5" Click="DisplayNumber" Content="5" x:Name="FiveButton" Style="{StaticResource Button}" Grid.Column="2" Grid.Row="6"/>
+        <Button Tag="6" Click="DisplayNumber" Content="6" x:Name="SixButton" Style="{StaticResource Button}" Grid.Column="3" Grid.Row="6"/>
         <Button Content="-" x:Name="MinusButton" Style="{StaticResource Button}" Grid.Column="4" Grid.Row="6"/>
         
-        <Button Content="1" x:Name="OneButton" Style="{StaticResource Button}" Grid.Column="1" Grid.Row="7"/>
-        <Button Content="2" x:Name="TwoButton" Style="{StaticResource Button}" Grid.Column="2" Grid.Row="7"/>
-        <Button Content="3" x:Name="ThreeButton" Style="{StaticResource Button}" Grid.Column="3" Grid.Row="7"/>
+        <Button Tag="1" Click="DisplayNumber" Content="1" x:Name="OneButton" Style="{StaticResource Button}" Grid.Column="1" Grid.Row="7"/>
+        <Button Tag="2" Click="DisplayNumber" Content="2" x:Name="TwoButton" Style="{StaticResource Button}" Grid.Column="2" Grid.Row="7"/>
+        <Button Tag="3" Click="DisplayNumber" Content="3" x:Name="ThreeButton" Style="{StaticResource Button}" Grid.Column="3" Grid.Row="7"/>
         <Button Content="+" x:Name="PlusButton" Style="{StaticResource Button}" Grid.Column="4" Grid.Row="7"/>
         
         <Button Content="+/-" x:Name="SwitchSignButton" Style="{StaticResource Button}" Grid.Column="1" Grid.Row="8"/>
