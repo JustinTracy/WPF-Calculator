@@ -12,12 +12,14 @@ namespace Calculator
     {
         private string firstNum = "";
         private string secondNum = "";
+        private string power = "";
         
         private bool isOnFirstNum = true;
         private bool isAdding;
         private bool isSubtracting;
         private bool isMultiplying;
         private bool isDividing;
+        private bool isCarreting;
         
         public MainWindow()
         {
@@ -28,7 +30,23 @@ namespace Calculator
         private void Equals(object sender, RoutedEventArgs routedEventArgs)
         {
             if (BottomTextBox.Text.Equals("")) return;
-            
+            if (firstNum.Equals("-"))
+            {
+                firstNum = "0";
+            }
+            if (secondNum.Equals("-"))
+            {
+                secondNum = "0";
+            }
+
+            if (isCarreting)
+            {
+                double total = Math.Pow(Double.Parse(firstNum), Double.Parse(power));
+                TopTextBox.Clear();
+                secondNum = "";
+                BottomTextBox.Text = total.ToString();
+                firstNum = total.ToString();
+            }
             if (isMultiplying)
             {
                 double total = Double.Parse(firstNum) * Double.Parse(secondNum);
@@ -67,6 +85,19 @@ namespace Calculator
             isSubtracting = false;
             isMultiplying = false;
             isDividing = false;
+            isCarreting = false;
+        }
+
+        private void Caret(object sender, RoutedEventArgs routedEventArgs)
+        {
+            if (isOnFirstNum)
+            {
+                if (firstNum.Equals("") || firstNum.Contains("^")) return;
+                if (firstNum.Contains("^")) return;
+                BottomTextBox.AppendText("^");
+                isCarreting = true;
+                isOnFirstNum = false;
+            }
         }
 
         private void Inverse(object sender, RoutedEventArgs routedEventArgs)
@@ -219,6 +250,10 @@ namespace Calculator
 
         private void Add(object sender, RoutedEventArgs routedEventArgs)
         {
+            if (firstNum.Equals("-"))
+            {
+                firstNum = "0";
+            }
             ClearOperators();
             isAdding = true;
             isOnFirstNum = false;
@@ -229,6 +264,10 @@ namespace Calculator
         
         private void Subtract(object sender, RoutedEventArgs routedEventArgs)
         {
+            if (firstNum.Equals("-"))
+            {
+                firstNum = "0";
+            }
             ClearOperators();
             isSubtracting = true;
             isOnFirstNum = false;
@@ -239,6 +278,10 @@ namespace Calculator
         
         private void Multiply(object sender, RoutedEventArgs routedEventArgs)
         {
+            if (firstNum.Equals("-"))
+            {
+                firstNum = "0";
+            }
             ClearOperators();
             isMultiplying = true;
             isOnFirstNum = false;
@@ -249,6 +292,10 @@ namespace Calculator
         
         private void Divide(object sender, RoutedEventArgs routedEventArgs)
         {
+            if (firstNum.Equals("-"))
+            {
+                firstNum = "0";
+            }
             ClearOperators();
             isDividing = true;
             isOnFirstNum = false;
@@ -260,7 +307,11 @@ namespace Calculator
         private void DisplayNumber(object sender, RoutedEventArgs routedEventArgs)
         {
             var tag = ((Button)sender).Tag;
-
+            
+            if (isCarreting)
+            {
+                power += tag.ToString();
+            }
             if (isOnFirstNum)
             {
                 BottomTextBox.AppendText(tag.ToString());
@@ -269,7 +320,10 @@ namespace Calculator
             else
             {
                 BottomTextBox.AppendText(tag.ToString());
-                secondNum = BottomTextBox.Text;
+                if (!isCarreting)
+                {
+                    secondNum = BottomTextBox.Text;
+                }
             }
         }
 
@@ -313,6 +367,7 @@ namespace Calculator
             isSubtracting = false;
             isMultiplying = false;
             isDividing = false;
+            isCarreting = false;
         }
 
         private void ClearOperators()
