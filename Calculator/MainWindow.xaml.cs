@@ -69,6 +69,22 @@ namespace Calculator
             isDividing = false;
         }
 
+        private void Square(object sender, RoutedEventArgs routedEventArgs)
+        {
+            if (isOnFirstNum)
+            {
+                firstNum = (Double.Parse(firstNum) * Double.Parse(firstNum)).ToString();
+                BottomTextBox.Text = firstNum;
+                Console.WriteLine(1);
+            }
+            else
+            {
+                secondNum = (Double.Parse(secondNum) * Double.Parse(secondNum)).ToString();
+                BottomTextBox.Text = secondNum;
+                Console.WriteLine(2);
+            }
+        }
+
         private void SwitchSigns(object sender, RoutedEventArgs routedEventArgs)
         {
             if (isOnFirstNum)
