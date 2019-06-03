@@ -408,6 +408,11 @@ namespace Calculator
                     secondNum = currentString;
                 }
             }
+
+            if (isCarreting && !BottomTextBox.Text.Contains("^"))
+            {
+                isCarreting = false;
+            }
         }
 
         private void ClearDisplay(object sender, RoutedEventArgs routedEventArgs)
