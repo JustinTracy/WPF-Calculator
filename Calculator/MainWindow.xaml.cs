@@ -29,6 +29,7 @@ namespace Calculator
         private void Equals(object sender, RoutedEventArgs routedEventArgs)
         {
             if (BottomTextBox.Text.Equals("")) return;
+            
             if (isMultiplying)
             {
                 double total = Double.Parse(firstNum) * Double.Parse(secondNum);
@@ -67,6 +68,11 @@ namespace Calculator
             isSubtracting = false;
             isMultiplying = false;
             isDividing = false;
+        }
+
+        private void Decimal(object sender, RoutedEventArgs routedEventArgs)
+        {
+            BottomTextBox.AppendText(".");
         }
 
         private void Add(object sender, RoutedEventArgs routedEventArgs)

@@ -62,7 +62,7 @@
         
         <Button Content="+/-" x:Name="SwitchSignButton" Style="{StaticResource Button}" Grid.Column="1" Grid.Row="8"/>
         <Button Tag="0" Click="DisplayNumber" Content="0" x:Name="ZeroButton" Style="{StaticResource Button}" Grid.Column="2" Grid.Row="8"/>
-        <Button Content="." x:Name="DecimalButton" Style="{StaticResource Button}" Grid.Column="3" Grid.Row="8"/>
+        <Button Click="Decimal" Content="." x:Name="DecimalButton" Style="{StaticResource Button}" Grid.Column="3" Grid.Row="8"/>
         <Button Click="Equals" Content="=" x:Name="EqualsButton" Style="{StaticResource Button}" Grid.Column="4" Grid.Row="8"/>
     </Grid>
 </Window>
