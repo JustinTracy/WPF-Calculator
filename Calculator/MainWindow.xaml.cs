@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.Remoting.Channels;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
@@ -11,8 +10,8 @@ namespace Calculator
     /// </summary>
     public partial class MainWindow
     {
-        private string firstNum;
-        private string secondNum;
+        private string firstNum = "";
+        private string secondNum = "";
         
         private bool isOnFirstNum = true;
         private bool isAdding;
@@ -68,6 +67,67 @@ namespace Calculator
             isSubtracting = false;
             isMultiplying = false;
             isDividing = false;
+        }
+
+        private void SwitchSigns(object sender, RoutedEventArgs routedEventArgs)
+        {
+            if (isOnFirstNum)
+            {
+                if (!firstNum.Equals(""))
+                {
+                    if (firstNum.Substring(0, 1).Equals("-"))
+                    {
+                        if (firstNum.Equals("-"))
+                        {
+                            firstNum = "";
+                            BottomTextBox.Text = firstNum;
+                        }
+                        else
+                        {
+                            firstNum = (Double.Parse(firstNum) * -1).ToString();
+                            BottomTextBox.Text = firstNum;
+                        }
+                    }
+                    else
+                    {
+                        firstNum = (Double.Parse(firstNum) * -1).ToString();
+                        BottomTextBox.Text = firstNum;
+                    }
+                }
+                else
+                {
+                    firstNum = "-";
+                    BottomTextBox.Text = firstNum;
+                }
+            }
+            else
+            {
+                if (!secondNum.Equals(""))
+                {
+                    if (secondNum.Substring(0, 1).Equals("-"))
+                    {
+                        if (secondNum.Equals("-"))
+                        {
+                            secondNum = "";
+                            BottomTextBox.Text = secondNum;
+                        }
+                        else
+                        {
+                            secondNum = (-Double.Parse(secondNum)).ToString();
+                            BottomTextBox.Text = secondNum;
+                        }
+                    }
+                    else
+                    {
+                        secondNum = (Double.Parse(secondNum) * -1).ToString();
+                    }
+                }
+                else
+                {
+                    secondNum = "-";
+                    BottomTextBox.Text = secondNum;
+                }
+            }
         }
 
         private void Decimal(object sender, RoutedEventArgs routedEventArgs)
