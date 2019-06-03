@@ -10,7 +10,7 @@ namespace Calculator
     /// </summary>
     public partial class MainWindow
     {
-        private string currentNum;
+        private string firstNum;
         private string secondNum;
 
         private bool isOnFirstNum = true;
@@ -26,7 +26,7 @@ namespace Calculator
 
             if (isOnFirstNum)
             {
-                currentNum += tag.ToString();
+                firstNum += tag.ToString();
                 BottomTextBox.AppendText(tag.ToString());
             }
             else
@@ -34,6 +34,38 @@ namespace Calculator
                 secondNum += tag.ToString();
                 TopTextBox.AppendText(tag.ToString());
             }
+        }
+
+        private void BackSpace(object sender, RoutedEventArgs routedEventArgs)
+        {
+            string currentString;
+            int textLength;
+
+            if (isOnFirstNum)
+            {
+                if (!BottomTextBox.Text.Equals(""))
+                {
+                    textLength = BottomTextBox.Text.Length;
+                    currentString = BottomTextBox.Text.Substring(0, textLength - 1);
+                    BottomTextBox.Text = currentString;
+                    firstNum = currentString;
+                }
+            }
+            else
+            {
+                textLength = TopTextBox.ToString().Length;
+                currentString = TopTextBox.Text.Substring(0, textLength - 1);
+                TopTextBox.Text = currentString;
+                secondNum = currentString;
+            }
+        }
+
+        private void ClearDisplay(object sender, RoutedEventArgs routedEventArgs)
+        {
+            TopTextBox.Clear();
+            BottomTextBox.Clear();
+            firstNum = "";
+            secondNum = "";
         }
         
         private void SetUniqueColors()
