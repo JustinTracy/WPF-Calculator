@@ -20,6 +20,9 @@ namespace Calculator
         private bool isMultiplying;
         private bool isDividing;
         private bool isCarreting;
+        private bool isOperating;
+        
+        //TODO to the negative power, chain operating
         
         public MainWindow()
         {
@@ -41,11 +44,21 @@ namespace Calculator
 
             if (isCarreting)
             {
-                double total = Math.Pow(Double.Parse(firstNum), Double.Parse(power));
-                TopTextBox.Clear();
-                secondNum = "";
-                BottomTextBox.Text = total.ToString();
-                firstNum = total.ToString();
+                if (isOnFirstNum)
+                {
+                    double total = Math.Pow(Double.Parse(firstNum), Double.Parse(power));
+                    TopTextBox.Clear();
+                    BottomTextBox.Text = total.ToString();
+                    firstNum = total.ToString();
+                }
+                else
+                {
+                    double total = Math.Pow(Double.Parse(secondNum), Double.Parse(power));
+                    TopTextBox.Clear();
+                    secondNum = "";
+                    BottomTextBox.Text = total.ToString();
+                    secondNum = total.ToString();
+                }
             }
             if (isMultiplying)
             {
@@ -93,10 +106,15 @@ namespace Calculator
             if (isOnFirstNum)
             {
                 if (firstNum.Equals("") || firstNum.Contains("^")) return;
-                if (firstNum.Contains("^")) return;
                 BottomTextBox.AppendText("^");
                 isCarreting = true;
                 isOnFirstNum = false;
+            }
+            else
+            {
+                if (secondNum.Equals("") || secondNum.Contains("^")) return;
+                BottomTextBox.AppendText("^");
+                isCarreting = true;
             }
         }
 
@@ -254,6 +272,11 @@ namespace Calculator
             {
                 firstNum = "0";
             }
+
+//            if (isOperating)
+//            {
+//                Equals(sender, routedEventArgs);
+//            }
             ClearOperators();
             isAdding = true;
             isOnFirstNum = false;
