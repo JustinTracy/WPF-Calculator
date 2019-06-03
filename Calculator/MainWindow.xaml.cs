@@ -69,19 +69,33 @@ namespace Calculator
             isDividing = false;
         }
 
+        private void SquareRoot(object sender, RoutedEventArgs routedEventArgs)
+        {
+            if (isOnFirstNum)
+            {
+                firstNum = Math.Sqrt(Double.Parse(firstNum)).ToString();
+                BottomTextBox.Text = firstNum;
+                Console.WriteLine();
+            }
+            else
+            {
+                secondNum = Math.Sqrt(Double.Parse(secondNum)).ToString();
+                BottomTextBox.Text = secondNum;
+                Console.WriteLine();
+            }
+        }
+
         private void Square(object sender, RoutedEventArgs routedEventArgs)
         {
             if (isOnFirstNum)
             {
                 firstNum = (Double.Parse(firstNum) * Double.Parse(firstNum)).ToString();
                 BottomTextBox.Text = firstNum;
-                Console.WriteLine(1);
             }
             else
             {
                 secondNum = (Double.Parse(secondNum) * Double.Parse(secondNum)).ToString();
                 BottomTextBox.Text = secondNum;
-                Console.WriteLine(2);
             }
         }
 
@@ -136,6 +150,7 @@ namespace Calculator
                     else
                     {
                         secondNum = (Double.Parse(secondNum) * -1).ToString();
+                        BottomTextBox.Text = secondNum;
                     }
                 }
                 else
