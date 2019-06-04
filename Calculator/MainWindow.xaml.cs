@@ -343,6 +343,7 @@ namespace Calculator
 
         private void Add(object sender, RoutedEventArgs routedEventArgs)
         {
+            if (BottomTextBox.Text.Equals("")) return;
             if (firstNum.Equals("-"))
             {
                 firstNum = "0";
@@ -373,6 +374,7 @@ namespace Calculator
         
         private void Subtract(object sender, RoutedEventArgs routedEventArgs)
         {
+            if (BottomTextBox.Text.Equals("")) return;
             if (firstNum.Equals("-"))
             {
                 firstNum = "0";
@@ -403,6 +405,7 @@ namespace Calculator
         
         private void Multiply(object sender, RoutedEventArgs routedEventArgs)
         {
+            if (BottomTextBox.Text.Equals("")) return;
             if (firstNum.Equals("-"))
             {
                 firstNum = "0";
@@ -433,6 +436,7 @@ namespace Calculator
         
         private void Divide(object sender, RoutedEventArgs routedEventArgs)
         {
+            if (BottomTextBox.Text.Equals("")) return;
             if (firstNum.Equals("-"))
             {
                 firstNum = "0";
