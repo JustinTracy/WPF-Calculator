@@ -10,6 +10,9 @@
         <e p="App.xaml.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Calculator.csproj" t="IncludeRecursive" />
+        <e p="images" t="Include">
+          <e p="backspace.png" t="Include" />
+        </e>
         <e p="MainWindow.xaml" t="Include" />
         <e p="MainWindow.xaml.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />

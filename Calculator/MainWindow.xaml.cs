@@ -5,7 +5,7 @@ using System.Windows.Media;
 
 namespace Calculator
 {
-    //TODO: chain operating, Change Color scheme, keyboard events, fix divide by zero(maybe)
+    //TODO: Change Color scheme, keyboard events, fix divide by zero(maybe)
     
     public partial class MainWindow
     {
@@ -19,7 +19,7 @@ namespace Calculator
         private bool isMultiplying;
         private bool isDividing;
         private bool isCarreting;
-        private int counter = 0;
+        private int counter;
         
         public MainWindow()
         {
@@ -466,11 +466,11 @@ namespace Calculator
         
         private void SetUniqueColors()
         {
-            Brush numberColor = Brushes.White;
-            Brush operatorColor = Brushes.Teal;
-            Brush equalsColor = Brushes.Orange;
-            Brush functionColor = Brushes.Green;
-            Brush deleteColor = Brushes.Crimson;
+            Brush numberColor = new SolidColorBrush(Color.FromRgb(255,234,165));
+            Brush operatorColor = new SolidColorBrush(Color.FromRgb(64,167,152));
+            Brush equalsColor = new SolidColorBrush(Color.FromRgb(245,139,84));
+            Brush functionColor = new SolidColorBrush(Color.FromRgb(64,167,152));
+            Brush deleteColor = new SolidColorBrush(Color.FromRgb(228,23,73));
 
             OneButton.Background = numberColor;
             TwoButton.Background = numberColor;

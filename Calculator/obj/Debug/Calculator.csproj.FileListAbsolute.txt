@@ -16,3 +16,5 @@ C:\Users\justi\RiderProjects\Calculator\Calculator\obj\Debug\Calculator.csproj.C
 C:\Users\justi\RiderProjects\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\justi\RiderProjects\Calculator\Calculator\obj\Debug\Calculator.pdb
 C:\Users\justi\RiderProjects\Calculator\Calculator\obj\Debug\Styles.g.cs
+C:\Users\justi\RiderProjects\Calculator\Calculator\obj\Debug\Calculator_Content.g.cs
+C:\Users\justi\RiderProjects\Calculator\Calculator\bin\Debug\images\backspace.png
