@@ -5,7 +5,7 @@ using System.Windows.Media;
 
 namespace Calculator
 {
-    //TODO: to the negative power, chain operating, Change Color scheme, keyboard events, fix divide by zero(maybe)
+    //TODO: chain operating, Change Color scheme, keyboard events, fix divide by zero(maybe)
     
     public partial class MainWindow
     {
@@ -19,7 +19,7 @@ namespace Calculator
         private bool isMultiplying;
         private bool isDividing;
         private bool isCarreting;
-        private bool isOperating;
+        private int counter = 0;
         
         public MainWindow()
         {
@@ -78,11 +78,22 @@ namespace Calculator
             }
             if (isAdding)
             {
-                double total = Double.Parse(firstNum) + Double.Parse(secondNum);
-                TopTextBox.Clear();
-                secondNum = "";
-                BottomTextBox.Text = total.ToString();
-                firstNum = total.ToString();
+                if (counter > 1)
+                {
+                    double total = Double.Parse(firstNum) + Double.Parse(secondNum);
+                    TopTextBox.Clear();
+                    secondNum = total.ToString();
+                    BottomTextBox.Text = total.ToString();
+                    firstNum = total.ToString();
+                }
+                else
+                {
+                    double total = Double.Parse(firstNum) + Double.Parse(secondNum);
+                    TopTextBox.Clear();
+                    secondNum = "";
+                    BottomTextBox.Text = total.ToString();
+                    firstNum = total.ToString();
+                }
             }
             if (isSubtracting)
             {
@@ -100,6 +111,7 @@ namespace Calculator
             isDividing = false;
             isCarreting = false;
             power = "";
+            counter = 0;
         }
 
         private void Caret(object sender, RoutedEventArgs routedEventArgs)
@@ -305,16 +317,28 @@ namespace Calculator
                 firstNum = "0";
             }
 
-//            if (isOperating)
-//            {
-//                Equals(sender, routedEventArgs);
-//            }
-            ClearOperators();
-            isAdding = true;
-            isOnFirstNum = false;
-            TopTextBox.Text = firstNum;
-            BottomTextBox.Clear();
-            TopTextBox.AppendText(" + ");
+            if (counter < 1)
+            {
+                ClearOperators();
+                isAdding = true;
+                isOnFirstNum = false;
+                TopTextBox.Text = firstNum;
+                BottomTextBox.Clear();
+                TopTextBox.AppendText(" + ");
+            }
+            else
+            {
+                isAdding = true;
+                isOnFirstNum = false;
+                Equals(sender, routedEventArgs);
+                isAdding = true;
+                isOnFirstNum = false;
+                TopTextBox.Text = firstNum;
+                BottomTextBox.Clear();
+                TopTextBox.AppendText(" + ");
+            }
+
+            counter++;
         }
         
         private void Subtract(object sender, RoutedEventArgs routedEventArgs)
@@ -429,6 +453,7 @@ namespace Calculator
             isMultiplying = false;
             isDividing = false;
             isCarreting = false;
+            counter = 0;
         }
 
         private void ClearOperators()
