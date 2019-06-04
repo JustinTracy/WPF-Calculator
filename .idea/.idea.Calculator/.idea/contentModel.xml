@@ -12,6 +12,7 @@
         <e p="Calculator.csproj" t="IncludeRecursive" />
         <e p="images" t="Include">
           <e p="backspace.png" t="Include" />
+          <e p="example.PNG" t="Include" />
         </e>
         <e p="MainWindow.xaml" t="Include" />
         <e p="MainWindow.xaml.cs" t="Include" />
