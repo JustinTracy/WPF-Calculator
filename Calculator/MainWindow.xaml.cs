@@ -5,8 +5,6 @@ using System.Windows.Media;
 
 namespace Calculator
 {
-    //TODO: Change Color scheme, keyboard events, fix divide by zero(maybe)
-    
     public partial class MainWindow
     {
         private string firstNum = "";

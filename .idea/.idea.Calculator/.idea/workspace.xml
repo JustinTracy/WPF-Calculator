@@ -3,19 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="fcd3628e-6810-4399-abde-8770df8a10fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Calculator/Calculator.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/Calculator.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/MainWindow.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/MainWindow.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/bin/Debug/Calculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/bin/Debug/Calculator.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/bin/Debug/Calculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/bin/Debug/Calculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/obj/Debug/Calculator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/obj/Debug/Calculator.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/obj/Debug/Calculator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/obj/Debug/Calculator.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/obj/Debug/Calculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/obj/Debug/Calculator.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/obj/Debug/Calculator.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/obj/Debug/Calculator.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/obj/Debug/Calculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/obj/Debug/Calculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/obj/Debug/Calculator_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/obj/Debug/Calculator_MarkupCompile.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/obj/Debug/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/obj/Debug/MainWindow.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/obj/Debug/MainWindow.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,126 +17,114 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calculator/MainWindow.xaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="47" column="96" lean-forward="true" selection-start-line="47" selection-start-column="96" selection-end-line="47" selection-end-column="96" />
+            <state relative-caret-position="645">
+              <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
               <folding>
-                <marker date="1559609072618" expanded="true" signature="0:5115" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;        &#10;        &lt;TextBox x:Name=&quot;TopTextBox&quot; Style=&quot;{StaticResource TextBoxStyle}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;4&quot;/&gt;&#10;        &lt;TextBox x:Name=&quot;BottomTextBox&quot; Style=&quot;{StaticResource TextBoxStyle}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;2&quot; Grid.ColumnSpan=&quot;4&quot;&#10;                 Margin=&quot;0, 0, 0, 5&quot;/&gt;&#10;        &#10;        &lt;Button Content=&quot;&quot; x:Name=&quot;BlankButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button Click=&quot;SquareRoot&quot; Content=&quot;√&quot; x:Name=&quot;SqrRootButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button Click=&quot;Square&quot; Content=&quot;x^2&quot; x:Name=&quot;SqrButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button Click=&quot;Inverse&quot; Content=&quot;1/x&quot; x:Name=&quot;InverseButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &#10;        &lt;Button Click=&quot;Caret&quot; Content=&quot;^&quot; x:Name=&quot;CaretButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;4&quot;/&gt;&#10;        &lt;Button Click=&quot;ClearDisplay&quot; Content=&quot;Clear&quot; x:Name=&quot;ClearButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;4&quot;/&gt;&#10;        &lt;Button Click=&quot;BackSpace&quot; Content=&quot;Back&quot; x:Name=&quot;BackButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;4&quot;/&gt;&#10;        &lt;Button Click=&quot;Divide&quot; Content=&quot;/&quot; x:Name=&quot;DivideButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;4&quot;/&gt;&#10;        &#10;        &lt;Button Tag=&quot;7&quot; Click=&quot;DisplayNumber&quot; Content=&quot;7&quot; x:Name=&quot;SevenButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;5&quot;/&gt;&#10;        &lt;Button Tag=&quot;8&quot; Click=&quot;DisplayNumber&quot; Content=&quot;8&quot; x:Name=&quot;EightButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;5&quot;/&gt;&#10;        &lt;Button Tag=&quot;9&quot; Click=&quot;DisplayNumber&quot; Content=&quot;9&quot; x:Name=&quot;NineButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;5&quot;/&gt;&#10;        &lt;Button Click=&quot;Multiply&quot; Content=&quot;*&quot; x:Name=&quot;MultiplyButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;5&quot;/&gt;&#10;        &#10;        &lt;Button Tag=&quot;4&quot; Click=&quot;DisplayNumber&quot; Content=&quot;4&quot; x:Name=&quot;FourButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;6&quot;/&gt;&#10;        &lt;Button Tag=&quot;5&quot; Click=&quot;DisplayNumber&quot; Content=&quot;5&quot; x:Name=&quot;FiveButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;6&quot;/&gt;&#10;        &lt;Button Tag=&quot;6&quot; Click=&quot;DisplayNumber&quot; Content=&quot;6&quot; x:Name=&quot;SixButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;6&quot;/&gt;&#10;        &lt;Button Click=&quot;Subtract&quot; Content=&quot;-&quot; x:Name=&quot;MinusButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;6&quot;/&gt;&#10;        &#10;        &lt;Button Tag=&quot;1&quot; Click=&quot;DisplayNumber&quot; Content=&quot;1&quot; x:Name=&quot;OneButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;7&quot;/&gt;&#10;        &lt;Button Tag=&quot;2&quot; Click=&quot;DisplayNumber&quot; Content=&quot;2&quot; x:Name=&quot;TwoButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;7&quot;/&gt;&#10;        &lt;Button Tag=&quot;3&quot; Click=&quot;DisplayNumber&quot; Content=&quot;3&quot; x:Name=&quot;ThreeButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;7&quot;/&gt;&#10;        &lt;Button Click=&quot;Add&quot; Content=&quot;+&quot; x:Name=&quot;PlusButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;7&quot;/&gt;&#10;        &#10;        &lt;Button Click=&quot;SwitchSigns&quot; Content=&quot;+/-&quot; x:Name=&quot;SwitchSignButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;8&quot;/&gt;&#10;        &lt;Button Tag=&quot;0&quot; Click=&quot;DisplayNumber&quot; Content=&quot;0&quot; x:Name=&quot;ZeroButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;8&quot;/&gt;&#10;        &lt;Button Click=&quot;Decimal&quot; Content=&quot;.&quot; x:Name=&quot;DecimalButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;8&quot;/&gt;&#10;        &lt;Button Click=&quot;Equals&quot; Content=&quot;=&quot; x:Name=&quot;EqualsButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;8&quot;/&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
-                <marker date="1559609072618" expanded="true" signature="625:5105" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;TextBox x:Name=&quot;TopTextBox&quot; Style=&quot;{StaticResource TextBoxStyle}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;4&quot;/&gt; &lt;TextBox x:Name=&quot;BottomTextBox&quot; Style=&quot;{StaticResource TextBoxStyle}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;2&quot; Grid.ColumnSpan=&quot;4&quot;&#10;                 Margin=&quot;0, 0, 0, 5&quot;/&gt; &lt;Button Content=&quot;&quot; x:Name=&quot;BlankButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button Click=&quot;SquareRoot&quot; Content=&quot;√&quot; x:Name=&quot;SqrRootButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button Click=&quot;Square&quot; Content=&quot;x^2&quot; x:Name=&quot;SqrButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button Click=&quot;Inverse&quot; Content=&quot;1/x&quot; x:Name=&quot;InverseButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button Click=&quot;Caret&quot; Content=&quot;^&quot; x:Name=&quot;CaretButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;4&quot;/&gt; &lt;Button Click=&quot;ClearDisplay&quot; Content=&quot;Clear&quot; x:Name=&quot;ClearButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;4&quot;/&gt; &lt;Button Click=&quot;BackSpace&quot; Content=&quot;Back&quot; x:Name=&quot;BackButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;4&quot;/&gt; &lt;Button Click=&quot;Divide&quot; Content=&quot;/&quot; x:Name=&quot;DivideButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;4&quot;/&gt; &lt;Button Tag=&quot;7&quot; Click=&quot;DisplayNumber&quot; Content=&quot;7&quot; x:Name=&quot;SevenButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;5&quot;/&gt; &lt;Button Tag=&quot;8&quot; Click=&quot;DisplayNumber&quot; Content=&quot;8&quot; x:Name=&quot;EightButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;5&quot;/&gt; &lt;Button Tag=&quot;9&quot; Click=&quot;DisplayNumber&quot; Content=&quot;9&quot; x:Name=&quot;NineButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;5&quot;/&gt; &lt;Button Click=&quot;Multiply&quot; Content=&quot;*&quot; x:Name=&quot;MultiplyButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;5&quot;/&gt; &lt;Button Tag=&quot;4&quot; Click=&quot;DisplayNumber&quot; Content=&quot;4&quot; x:Name=&quot;FourButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;6&quot;/&gt; &lt;Button Tag=&quot;5&quot; Click=&quot;DisplayNumber&quot; Content=&quot;5&quot; x:Name=&quot;FiveButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;6&quot;/&gt; &lt;Button Tag=&quot;6&quot; Click=&quot;DisplayNumber&quot; Content=&quot;6&quot; x:Name=&quot;SixButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;6&quot;/&gt; &lt;Button Click=&quot;Subtract&quot; Content=&quot;-&quot; x:Name=&quot;MinusButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;6&quot;/&gt; &lt;Button Tag=&quot;1&quot; Click=&quot;DisplayNumber&quot; Content=&quot;1&quot; x:Name=&quot;OneButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;7&quot;/&gt; &lt;Button Tag=&quot;2&quot; Click=&quot;DisplayNumber&quot; Content=&quot;2&quot; x:Name=&quot;TwoButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;7&quot;/&gt; &lt;Button Tag=&quot;3&quot; Click=&quot;DisplayNumber&quot; Content=&quot;3&quot; x:Name=&quot;ThreeButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;7&quot;/&gt; &lt;Button Click=&quot;Add&quot; Content=&quot;+&quot; x:Name=&quot;PlusButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;7&quot;/&gt; &lt;Button Click=&quot;SwitchSigns&quot; Content=&quot;+/-&quot; x:Name=&quot;SwitchSignButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;8&quot;/&gt; &lt;Button Tag=&quot;0&quot; Click=&quot;DisplayNumber&quot; Content=&quot;0&quot; x:Name=&quot;ZeroButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;8&quot;/&gt; &lt;Button Click=&quot;Decimal&quot; Content=&quot;.&quot; x:Name=&quot;DecimalButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;8&quot;/&gt; &lt;Button Click=&quot;Equals&quot; Content=&quot;=&quot; x:Name=&quot;EqualsButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;8&quot;/&gt;.../&gt;" />
-                <marker date="1559609072618" expanded="true" signature="640:964" ph="&lt;&lt;ColumnDefinition Width=&quot;20&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;20&quot;/&gt;.../&gt;" />
-                <marker date="1559609072618" expanded="true" signature="973:1451" ph="&lt;&lt;RowDefinition Height=&quot;20&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;20&quot;/&gt;.../&gt;" />
-                <marker date="1559609072618" expanded="true" signature="1595:1752" ph="&lt;.../&gt;" />
-                <marker date="1559609072618" expanded="true" signature="2541:2738" ph="&lt;.../&gt;" />
+                <marker date="1559609132596" expanded="true" signature="0:5114" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;        &#10;        &lt;TextBox x:Name=&quot;TopTextBox&quot; Style=&quot;{StaticResource TextBoxStyle}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;4&quot;/&gt;&#10;        &lt;TextBox x:Name=&quot;BottomTextBox&quot; Style=&quot;{StaticResource TextBoxStyle}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;2&quot; Grid.ColumnSpan=&quot;4&quot;&#10;                 Margin=&quot;0, 0, 0, 5&quot;/&gt;&#10;        &#10;        &lt;Button Content=&quot;&quot; x:Name=&quot;BlankButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button Click=&quot;SquareRoot&quot; Content=&quot;√&quot; x:Name=&quot;SqrRootButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button Click=&quot;Square&quot; Content=&quot;x^2&quot; x:Name=&quot;SqrButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button Click=&quot;Inverse&quot; Content=&quot;1/x&quot; x:Name=&quot;InverseButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &#10;        &lt;Button Click=&quot;Caret&quot; Content=&quot;^&quot; x:Name=&quot;CaretButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;4&quot;/&gt;&#10;        &lt;Button Click=&quot;ClearDisplay&quot; Content=&quot;Clear&quot; x:Name=&quot;ClearButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;4&quot;/&gt;&#10;        &lt;Button Click=&quot;BackSpace&quot; Content=&quot;Back&quot; x:Name=&quot;BackButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;4&quot;/&gt;&#10;        &lt;Button Click=&quot;Divide&quot; Content=&quot;/&quot; x:Name=&quot;DivideButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;4&quot;/&gt;&#10;        &#10;        &lt;Button Tag=&quot;7&quot; Click=&quot;DisplayNumber&quot; Content=&quot;7&quot; x:Name=&quot;SevenButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;5&quot;/&gt;&#10;        &lt;Button Tag=&quot;8&quot; Click=&quot;DisplayNumber&quot; Content=&quot;8&quot; x:Name=&quot;EightButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;5&quot;/&gt;&#10;        &lt;Button Tag=&quot;9&quot; Click=&quot;DisplayNumber&quot; Content=&quot;9&quot; x:Name=&quot;NineButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;5&quot;/&gt;&#10;        &lt;Button Click=&quot;Multiply&quot; Content=&quot;*&quot; x:Name=&quot;MultiplyButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;5&quot;/&gt;&#10;        &#10;        &lt;Button Tag=&quot;4&quot; Click=&quot;DisplayNumber&quot; Content=&quot;4&quot; x:Name=&quot;FourButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;6&quot;/&gt;&#10;        &lt;Button Tag=&quot;5&quot; Click=&quot;DisplayNumber&quot; Content=&quot;5&quot; x:Name=&quot;FiveButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;6&quot;/&gt;&#10;        &lt;Button Tag=&quot;6&quot; Click=&quot;DisplayNumber&quot; Content=&quot;6&quot; x:Name=&quot;SixButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;6&quot;/&gt;&#10;        &lt;Button Click=&quot;Subtract&quot; Content=&quot;-&quot; x:Name=&quot;MinusButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;6&quot;/&gt;&#10;        &#10;        &lt;Button Tag=&quot;1&quot; Click=&quot;DisplayNumber&quot; Content=&quot;1&quot; x:Name=&quot;OneButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;7&quot;/&gt;&#10;        &lt;Button Tag=&quot;2&quot; Click=&quot;DisplayNumber&quot; Content=&quot;2&quot; x:Name=&quot;TwoButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;7&quot;/&gt;&#10;        &lt;Button Tag=&quot;3&quot; Click=&quot;DisplayNumber&quot; Content=&quot;3&quot; x:Name=&quot;ThreeButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;7&quot;/&gt;&#10;        &lt;Button Click=&quot;Add&quot; Content=&quot;+&quot; x:Name=&quot;PlusButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;7&quot;/&gt;&#10;        &#10;        &lt;Button Click=&quot;SwitchSigns&quot; Content=&quot;+/-&quot; x:Name=&quot;SwitchSignButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;8&quot;/&gt;&#10;        &lt;Button Tag=&quot;0&quot; Click=&quot;DisplayNumber&quot; Content=&quot;0&quot; x:Name=&quot;ZeroButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;8&quot;/&gt;&#10;        &lt;Button Click=&quot;Decimal&quot; Content=&quot;.&quot; x:Name=&quot;DecimalButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;8&quot;/&gt;&#10;        &lt;Button Click=&quot;Equals&quot; Content=&quot;=&quot; x:Name=&quot;EqualsButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;8&quot;/&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
+                <marker date="1559609132596" expanded="true" signature="625:5104" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;TextBox x:Name=&quot;TopTextBox&quot; Style=&quot;{StaticResource TextBoxStyle}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;4&quot;/&gt; &lt;TextBox x:Name=&quot;BottomTextBox&quot; Style=&quot;{StaticResource TextBoxStyle}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;2&quot; Grid.ColumnSpan=&quot;4&quot;&#10;                 Margin=&quot;0, 0, 0, 5&quot;/&gt; &lt;Button Content=&quot;&quot; x:Name=&quot;BlankButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button Click=&quot;SquareRoot&quot; Content=&quot;√&quot; x:Name=&quot;SqrRootButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button Click=&quot;Square&quot; Content=&quot;x^2&quot; x:Name=&quot;SqrButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button Click=&quot;Inverse&quot; Content=&quot;1/x&quot; x:Name=&quot;InverseButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button Click=&quot;Caret&quot; Content=&quot;^&quot; x:Name=&quot;CaretButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;4&quot;/&gt; &lt;Button Click=&quot;ClearDisplay&quot; Content=&quot;Clear&quot; x:Name=&quot;ClearButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;4&quot;/&gt; &lt;Button Click=&quot;BackSpace&quot; Content=&quot;Back&quot; x:Name=&quot;BackButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;4&quot;/&gt; &lt;Button Click=&quot;Divide&quot; Content=&quot;/&quot; x:Name=&quot;DivideButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;4&quot;/&gt; &lt;Button Tag=&quot;7&quot; Click=&quot;DisplayNumber&quot; Content=&quot;7&quot; x:Name=&quot;SevenButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;5&quot;/&gt; &lt;Button Tag=&quot;8&quot; Click=&quot;DisplayNumber&quot; Content=&quot;8&quot; x:Name=&quot;EightButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;5&quot;/&gt; &lt;Button Tag=&quot;9&quot; Click=&quot;DisplayNumber&quot; Content=&quot;9&quot; x:Name=&quot;NineButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;5&quot;/&gt; &lt;Button Click=&quot;Multiply&quot; Content=&quot;*&quot; x:Name=&quot;MultiplyButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;5&quot;/&gt; &lt;Button Tag=&quot;4&quot; Click=&quot;DisplayNumber&quot; Content=&quot;4&quot; x:Name=&quot;FourButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;6&quot;/&gt; &lt;Button Tag=&quot;5&quot; Click=&quot;DisplayNumber&quot; Content=&quot;5&quot; x:Name=&quot;FiveButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;6&quot;/&gt; &lt;Button Tag=&quot;6&quot; Click=&quot;DisplayNumber&quot; Content=&quot;6&quot; x:Name=&quot;SixButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;6&quot;/&gt; &lt;Button Click=&quot;Subtract&quot; Content=&quot;-&quot; x:Name=&quot;MinusButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;6&quot;/&gt; &lt;Button Tag=&quot;1&quot; Click=&quot;DisplayNumber&quot; Content=&quot;1&quot; x:Name=&quot;OneButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;7&quot;/&gt; &lt;Button Tag=&quot;2&quot; Click=&quot;DisplayNumber&quot; Content=&quot;2&quot; x:Name=&quot;TwoButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;7&quot;/&gt; &lt;Button Tag=&quot;3&quot; Click=&quot;DisplayNumber&quot; Content=&quot;3&quot; x:Name=&quot;ThreeButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;7&quot;/&gt; &lt;Button Click=&quot;Add&quot; Content=&quot;+&quot; x:Name=&quot;PlusButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;7&quot;/&gt; &lt;Button Click=&quot;SwitchSigns&quot; Content=&quot;+/-&quot; x:Name=&quot;SwitchSignButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;8&quot;/&gt; &lt;Button Tag=&quot;0&quot; Click=&quot;DisplayNumber&quot; Content=&quot;0&quot; x:Name=&quot;ZeroButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;8&quot;/&gt; &lt;Button Click=&quot;Decimal&quot; Content=&quot;.&quot; x:Name=&quot;DecimalButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;8&quot;/&gt; &lt;Button Click=&quot;Equals&quot; Content=&quot;=&quot; x:Name=&quot;EqualsButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;8&quot;/&gt;.../&gt;" />
+                <marker date="1559609132596" expanded="true" signature="640:964" ph="&lt;&lt;ColumnDefinition Width=&quot;20&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;20&quot;/&gt;.../&gt;" />
+                <marker date="1559609132596" expanded="true" signature="973:1451" ph="&lt;&lt;RowDefinition Height=&quot;20&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;20&quot;/&gt;.../&gt;" />
+                <marker date="1559609132596" expanded="true" signature="1595:1752" ph="&lt;.../&gt;" />
+                <marker date="1559609132596" expanded="true" signature="2541:2737" ph="&lt;.../&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Calculator/Styles.xaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-              <folding>
-                <marker date="1559528183632" expanded="true" signature="0:791" ph="&lt;&lt;Style TargetType=&quot;Button&quot; x:Key=&quot;Button&quot;&gt;&#10;        &lt;Setter Property=&quot;Foreground&quot; Value=&quot;Black&quot;/&gt;&#10;        &lt;Setter Property=&quot;Width&quot; Value=&quot;72&quot;/&gt;&#10;        &lt;Setter Property=&quot;Height&quot; Value=&quot;66.66&quot;/&gt;&#10;        &lt;Setter Property=&quot;Margin&quot; Value=&quot;1.5, 1.5, 1.5, 1.5&quot;/&gt;&#10;    &lt;/Style&gt; &lt;Style TargetType=&quot;TextBox&quot; x:Key=&quot;TextBoxStyle&quot;&gt;&#10;        &lt;Setter Property=&quot;IsReadOnly&quot; Value=&quot;True&quot;/&gt;&#10;        &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Arrow&quot;/&gt;&#10;        &lt;Setter Property=&quot;Width&quot; Value=&quot;295&quot;/&gt;&#10;        &lt;Setter Property=&quot;Height&quot; Value=&quot;50&quot;&gt;&lt;/Setter&gt;&#10;    &lt;/Style&gt;.../&gt;" />
-                <marker date="1559528183632" expanded="true" signature="219:487" ph="&lt;&lt;Setter Property=&quot;Foreground&quot; Value=&quot;Black&quot;/&gt; &lt;Setter Property=&quot;Width&quot; Value=&quot;72&quot;/&gt; &lt;Setter Property=&quot;Height&quot; Value=&quot;66.66&quot;/&gt; &lt;Setter Property=&quot;Margin&quot; Value=&quot;1.5, 1.5, 1.5, 1.5&quot;/&gt;.../&gt;" />
-                <marker date="1559528183632" expanded="true" signature="497:764" ph="&lt;&lt;Setter Property=&quot;IsReadOnly&quot; Value=&quot;True&quot;/&gt; &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Arrow&quot;/&gt; &lt;Setter Property=&quot;Width&quot; Value=&quot;295&quot;/&gt; &lt;Setter Property=&quot;Height&quot; Value=&quot;50&quot;&gt;&lt;/Setter&gt;.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Calculator/MainWindow.xaml.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="474" column="12" selection-start-line="474" selection-start-column="12" selection-end-line="474" selection-end-column="12" />
+            <state relative-caret-position="495">
+              <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
               <folding>
-                <marker date="1559608263962" expanded="true" signature="6:94" ph="..." />
-                <marker date="1559608263962" expanded="true" signature="116:17078" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="235:17076" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="640:726" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="803:3886" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="906:966" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="1005:1066" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="1096:1963" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="1144:1616" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="1637:1949" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="1994:2271" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="2299:2576" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="2602:3308" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="2649:2968" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="2989:3294" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="3339:3616" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="3962:4509" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="4002:4499" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="4050:4256" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="4277:4485" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="4587:5041" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="4627:4819" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="4836:5031" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="5122:5587" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="5162:5359" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="5376:5577" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="5664:6162" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="5704:5917" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="5934:6152" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="6244:9683" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="6284:8564" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="6332:7426" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="6396:7244" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="6484:7001" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="6564:6734" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="6767:6975" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="7030:7222" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="7269:7408" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="7447:8550" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="7512:8366" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="7601:8120" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="7682:7854" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="7887:8094" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="8149:8344" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="8391:8532" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="8581:9673" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="8633:8755" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="8799:9030" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="9076:9357" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="9378:9659" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="9761:10807" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="9801:10288" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="9909:10133" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="9975:10115" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="10154:10274" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="10305:10797" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="10415:10641" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="10482:10623" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="10662:10783" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="10881:11680" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="10929:10989" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="11019:11281" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="11298:11646" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="11767:12100" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="11815:11875" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="12187:12520" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="12235:12295" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="12605:12935" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="12653:12713" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="13019:13582" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="13115:13184" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="13214:13347" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="13364:13572" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="13470:13558" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="13662:14693" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="13765:14170" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="13831:14156" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="14187:14551" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="14253:14537" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="14618:14683" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="14776:15178" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="15217:15369" ph="{...}" />
-                <marker date="1559608263962" expanded="true" signature="15417:17070" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="6:122" ph="..." />
+                <marker date="1559609718396" expanded="true" signature="144:17284" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="242:17282" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="647:932" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="749:922" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="813:891" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="1009:4092" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="1112:1172" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="1211:1272" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="1302:2169" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="1350:1822" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="1843:2155" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="2200:2477" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="2505:2782" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="2808:3514" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="2855:3174" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="3195:3500" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="3545:3822" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="4168:4715" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="4208:4705" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="4256:4462" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="4483:4691" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="4793:5247" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="4833:5025" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="5042:5237" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="5328:5793" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="5368:5565" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="5582:5783" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="5870:6368" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="5910:6123" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="6140:6358" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="6450:9889" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="6490:8770" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="6538:7632" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="6602:7450" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="6690:7207" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="6770:6940" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="6973:7181" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="7236:7428" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="7475:7614" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="7653:8756" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="7718:8572" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="7807:8326" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="7888:8060" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="8093:8300" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="8355:8550" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="8597:8738" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="8787:9879" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="8839:8961" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="9005:9236" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="9282:9563" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="9584:9865" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="9967:11013" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="10007:10494" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="10115:10339" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="10181:10321" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="10360:10480" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="10511:11003" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="10621:10847" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="10688:10829" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="10868:10989" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="11087:11886" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="11135:11195" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="11225:11487" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="11504:11852" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="11973:12306" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="12021:12081" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="12393:12726" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="12441:12501" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="12811:13141" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="12859:12919" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="13225:13788" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="13321:13390" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="13420:13553" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="13570:13778" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="13676:13764" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="13868:14899" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="13971:14376" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="14037:14362" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="14393:14757" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="14459:14743" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="14824:14889" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="14982:15384" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="15423:15575" ph="{...}" />
+                <marker date="1559609718396" expanded="true" signature="15623:17276" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -175,8 +155,8 @@
         <option value="$PROJECT_DIR$/Calculator/App.xaml.cs" />
         <option value="$PROJECT_DIR$/Calculator/Styles.cs" />
         <option value="$PROJECT_DIR$/Calculator/Styles.xaml" />
-        <option value="$PROJECT_DIR$/Calculator/MainWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/Calculator/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/Calculator/MainWindow.xaml.cs" />
       </list>
     </option>
   </component>
@@ -287,12 +267,12 @@
       <workItem from="1559527761567" duration="4083000" />
       <workItem from="1559531968588" duration="1342000" />
       <workItem from="1559542966365" duration="8604000" />
-      <workItem from="1559596293831" duration="10293000" />
+      <workItem from="1559596293831" duration="10890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33167000" />
+    <option name="totallyTimeSpent" value="33764000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -304,14 +284,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16717096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399361" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -954,98 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Calculator/MainWindow.xaml.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="474" column="12" selection-start-line="474" selection-start-column="12" selection-end-line="474" selection-end-column="12" />
-          <folding>
-            <marker date="1559608263962" expanded="true" signature="6:94" ph="..." />
-            <marker date="1559608263962" expanded="true" signature="116:17078" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="235:17076" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="640:726" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="803:3886" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="906:966" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="1005:1066" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="1096:1963" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="1144:1616" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="1637:1949" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="1994:2271" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="2299:2576" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="2602:3308" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="2649:2968" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="2989:3294" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="3339:3616" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="3962:4509" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="4002:4499" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="4050:4256" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="4277:4485" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="4587:5041" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="4627:4819" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="4836:5031" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="5122:5587" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="5162:5359" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="5376:5577" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="5664:6162" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="5704:5917" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="5934:6152" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="6244:9683" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="6284:8564" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="6332:7426" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="6396:7244" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="6484:7001" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="6564:6734" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="6767:6975" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="7030:7222" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="7269:7408" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="7447:8550" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="7512:8366" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="7601:8120" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="7682:7854" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="7887:8094" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="8149:8344" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="8391:8532" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="8581:9673" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="8633:8755" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="8799:9030" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="9076:9357" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="9378:9659" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="9761:10807" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="9801:10288" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="9909:10133" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="9975:10115" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="10154:10274" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="10305:10797" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="10415:10641" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="10482:10623" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="10662:10783" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="10881:11680" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="10929:10989" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="11019:11281" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="11298:11646" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="11767:12100" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="11815:11875" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="12187:12520" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="12235:12295" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="12605:12935" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="12653:12713" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="13019:13582" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="13115:13184" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="13214:13347" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="13364:13572" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="13470:13558" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="13662:14693" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="13765:14170" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="13831:14156" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="14187:14551" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="14253:14537" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="14618:14683" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="14776:15178" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="15217:15369" ph="{...}" />
-            <marker date="1559608263962" expanded="true" signature="15417:17070" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Calculator/Styles.xaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1063,15 +952,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Calculator/MainWindow.xaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="47" column="96" lean-forward="true" selection-start-line="47" selection-start-column="96" selection-end-line="47" selection-end-column="96" />
+        <state relative-caret-position="645">
+          <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
           <folding>
-            <marker date="1559609072618" expanded="true" signature="0:5115" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;        &#10;        &lt;TextBox x:Name=&quot;TopTextBox&quot; Style=&quot;{StaticResource TextBoxStyle}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;4&quot;/&gt;&#10;        &lt;TextBox x:Name=&quot;BottomTextBox&quot; Style=&quot;{StaticResource TextBoxStyle}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;2&quot; Grid.ColumnSpan=&quot;4&quot;&#10;                 Margin=&quot;0, 0, 0, 5&quot;/&gt;&#10;        &#10;        &lt;Button Content=&quot;&quot; x:Name=&quot;BlankButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button Click=&quot;SquareRoot&quot; Content=&quot;√&quot; x:Name=&quot;SqrRootButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button Click=&quot;Square&quot; Content=&quot;x^2&quot; x:Name=&quot;SqrButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button Click=&quot;Inverse&quot; Content=&quot;1/x&quot; x:Name=&quot;InverseButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &#10;        &lt;Button Click=&quot;Caret&quot; Content=&quot;^&quot; x:Name=&quot;CaretButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;4&quot;/&gt;&#10;        &lt;Button Click=&quot;ClearDisplay&quot; Content=&quot;Clear&quot; x:Name=&quot;ClearButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;4&quot;/&gt;&#10;        &lt;Button Click=&quot;BackSpace&quot; Content=&quot;Back&quot; x:Name=&quot;BackButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;4&quot;/&gt;&#10;        &lt;Button Click=&quot;Divide&quot; Content=&quot;/&quot; x:Name=&quot;DivideButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;4&quot;/&gt;&#10;        &#10;        &lt;Button Tag=&quot;7&quot; Click=&quot;DisplayNumber&quot; Content=&quot;7&quot; x:Name=&quot;SevenButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;5&quot;/&gt;&#10;        &lt;Button Tag=&quot;8&quot; Click=&quot;DisplayNumber&quot; Content=&quot;8&quot; x:Name=&quot;EightButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;5&quot;/&gt;&#10;        &lt;Button Tag=&quot;9&quot; Click=&quot;DisplayNumber&quot; Content=&quot;9&quot; x:Name=&quot;NineButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;5&quot;/&gt;&#10;        &lt;Button Click=&quot;Multiply&quot; Content=&quot;*&quot; x:Name=&quot;MultiplyButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;5&quot;/&gt;&#10;        &#10;        &lt;Button Tag=&quot;4&quot; Click=&quot;DisplayNumber&quot; Content=&quot;4&quot; x:Name=&quot;FourButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;6&quot;/&gt;&#10;        &lt;Button Tag=&quot;5&quot; Click=&quot;DisplayNumber&quot; Content=&quot;5&quot; x:Name=&quot;FiveButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;6&quot;/&gt;&#10;        &lt;Button Tag=&quot;6&quot; Click=&quot;DisplayNumber&quot; Content=&quot;6&quot; x:Name=&quot;SixButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;6&quot;/&gt;&#10;        &lt;Button Click=&quot;Subtract&quot; Content=&quot;-&quot; x:Name=&quot;MinusButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;6&quot;/&gt;&#10;        &#10;        &lt;Button Tag=&quot;1&quot; Click=&quot;DisplayNumber&quot; Content=&quot;1&quot; x:Name=&quot;OneButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;7&quot;/&gt;&#10;        &lt;Button Tag=&quot;2&quot; Click=&quot;DisplayNumber&quot; Content=&quot;2&quot; x:Name=&quot;TwoButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;7&quot;/&gt;&#10;        &lt;Button Tag=&quot;3&quot; Click=&quot;DisplayNumber&quot; Content=&quot;3&quot; x:Name=&quot;ThreeButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;7&quot;/&gt;&#10;        &lt;Button Click=&quot;Add&quot; Content=&quot;+&quot; x:Name=&quot;PlusButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;7&quot;/&gt;&#10;        &#10;        &lt;Button Click=&quot;SwitchSigns&quot; Content=&quot;+/-&quot; x:Name=&quot;SwitchSignButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;8&quot;/&gt;&#10;        &lt;Button Tag=&quot;0&quot; Click=&quot;DisplayNumber&quot; Content=&quot;0&quot; x:Name=&quot;ZeroButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;8&quot;/&gt;&#10;        &lt;Button Click=&quot;Decimal&quot; Content=&quot;.&quot; x:Name=&quot;DecimalButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;8&quot;/&gt;&#10;        &lt;Button Click=&quot;Equals&quot; Content=&quot;=&quot; x:Name=&quot;EqualsButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;8&quot;/&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
-            <marker date="1559609072618" expanded="true" signature="625:5105" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;TextBox x:Name=&quot;TopTextBox&quot; Style=&quot;{StaticResource TextBoxStyle}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;4&quot;/&gt; &lt;TextBox x:Name=&quot;BottomTextBox&quot; Style=&quot;{StaticResource TextBoxStyle}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;2&quot; Grid.ColumnSpan=&quot;4&quot;&#10;                 Margin=&quot;0, 0, 0, 5&quot;/&gt; &lt;Button Content=&quot;&quot; x:Name=&quot;BlankButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button Click=&quot;SquareRoot&quot; Content=&quot;√&quot; x:Name=&quot;SqrRootButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button Click=&quot;Square&quot; Content=&quot;x^2&quot; x:Name=&quot;SqrButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button Click=&quot;Inverse&quot; Content=&quot;1/x&quot; x:Name=&quot;InverseButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button Click=&quot;Caret&quot; Content=&quot;^&quot; x:Name=&quot;CaretButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;4&quot;/&gt; &lt;Button Click=&quot;ClearDisplay&quot; Content=&quot;Clear&quot; x:Name=&quot;ClearButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;4&quot;/&gt; &lt;Button Click=&quot;BackSpace&quot; Content=&quot;Back&quot; x:Name=&quot;BackButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;4&quot;/&gt; &lt;Button Click=&quot;Divide&quot; Content=&quot;/&quot; x:Name=&quot;DivideButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;4&quot;/&gt; &lt;Button Tag=&quot;7&quot; Click=&quot;DisplayNumber&quot; Content=&quot;7&quot; x:Name=&quot;SevenButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;5&quot;/&gt; &lt;Button Tag=&quot;8&quot; Click=&quot;DisplayNumber&quot; Content=&quot;8&quot; x:Name=&quot;EightButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;5&quot;/&gt; &lt;Button Tag=&quot;9&quot; Click=&quot;DisplayNumber&quot; Content=&quot;9&quot; x:Name=&quot;NineButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;5&quot;/&gt; &lt;Button Click=&quot;Multiply&quot; Content=&quot;*&quot; x:Name=&quot;MultiplyButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;5&quot;/&gt; &lt;Button Tag=&quot;4&quot; Click=&quot;DisplayNumber&quot; Content=&quot;4&quot; x:Name=&quot;FourButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;6&quot;/&gt; &lt;Button Tag=&quot;5&quot; Click=&quot;DisplayNumber&quot; Content=&quot;5&quot; x:Name=&quot;FiveButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;6&quot;/&gt; &lt;Button Tag=&quot;6&quot; Click=&quot;DisplayNumber&quot; Content=&quot;6&quot; x:Name=&quot;SixButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;6&quot;/&gt; &lt;Button Click=&quot;Subtract&quot; Content=&quot;-&quot; x:Name=&quot;MinusButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;6&quot;/&gt; &lt;Button Tag=&quot;1&quot; Click=&quot;DisplayNumber&quot; Content=&quot;1&quot; x:Name=&quot;OneButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;7&quot;/&gt; &lt;Button Tag=&quot;2&quot; Click=&quot;DisplayNumber&quot; Content=&quot;2&quot; x:Name=&quot;TwoButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;7&quot;/&gt; &lt;Button Tag=&quot;3&quot; Click=&quot;DisplayNumber&quot; Content=&quot;3&quot; x:Name=&quot;ThreeButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;7&quot;/&gt; &lt;Button Click=&quot;Add&quot; Content=&quot;+&quot; x:Name=&quot;PlusButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;7&quot;/&gt; &lt;Button Click=&quot;SwitchSigns&quot; Content=&quot;+/-&quot; x:Name=&quot;SwitchSignButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;8&quot;/&gt; &lt;Button Tag=&quot;0&quot; Click=&quot;DisplayNumber&quot; Content=&quot;0&quot; x:Name=&quot;ZeroButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;8&quot;/&gt; &lt;Button Click=&quot;Decimal&quot; Content=&quot;.&quot; x:Name=&quot;DecimalButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;8&quot;/&gt; &lt;Button Click=&quot;Equals&quot; Content=&quot;=&quot; x:Name=&quot;EqualsButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;8&quot;/&gt;.../&gt;" />
-            <marker date="1559609072618" expanded="true" signature="640:964" ph="&lt;&lt;ColumnDefinition Width=&quot;20&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;20&quot;/&gt;.../&gt;" />
-            <marker date="1559609072618" expanded="true" signature="973:1451" ph="&lt;&lt;RowDefinition Height=&quot;20&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;20&quot;/&gt;.../&gt;" />
-            <marker date="1559609072618" expanded="true" signature="1595:1752" ph="&lt;.../&gt;" />
-            <marker date="1559609072618" expanded="true" signature="2541:2738" ph="&lt;.../&gt;" />
+            <marker date="1559609132596" expanded="true" signature="0:5114" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;        &#10;        &lt;TextBox x:Name=&quot;TopTextBox&quot; Style=&quot;{StaticResource TextBoxStyle}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;4&quot;/&gt;&#10;        &lt;TextBox x:Name=&quot;BottomTextBox&quot; Style=&quot;{StaticResource TextBoxStyle}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;2&quot; Grid.ColumnSpan=&quot;4&quot;&#10;                 Margin=&quot;0, 0, 0, 5&quot;/&gt;&#10;        &#10;        &lt;Button Content=&quot;&quot; x:Name=&quot;BlankButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button Click=&quot;SquareRoot&quot; Content=&quot;√&quot; x:Name=&quot;SqrRootButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button Click=&quot;Square&quot; Content=&quot;x^2&quot; x:Name=&quot;SqrButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &lt;Button Click=&quot;Inverse&quot; Content=&quot;1/x&quot; x:Name=&quot;InverseButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;3&quot;/&gt;&#10;        &#10;        &lt;Button Click=&quot;Caret&quot; Content=&quot;^&quot; x:Name=&quot;CaretButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;4&quot;/&gt;&#10;        &lt;Button Click=&quot;ClearDisplay&quot; Content=&quot;Clear&quot; x:Name=&quot;ClearButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;4&quot;/&gt;&#10;        &lt;Button Click=&quot;BackSpace&quot; Content=&quot;Back&quot; x:Name=&quot;BackButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;4&quot;/&gt;&#10;        &lt;Button Click=&quot;Divide&quot; Content=&quot;/&quot; x:Name=&quot;DivideButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;4&quot;/&gt;&#10;        &#10;        &lt;Button Tag=&quot;7&quot; Click=&quot;DisplayNumber&quot; Content=&quot;7&quot; x:Name=&quot;SevenButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;5&quot;/&gt;&#10;        &lt;Button Tag=&quot;8&quot; Click=&quot;DisplayNumber&quot; Content=&quot;8&quot; x:Name=&quot;EightButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;5&quot;/&gt;&#10;        &lt;Button Tag=&quot;9&quot; Click=&quot;DisplayNumber&quot; Content=&quot;9&quot; x:Name=&quot;NineButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;5&quot;/&gt;&#10;        &lt;Button Click=&quot;Multiply&quot; Content=&quot;*&quot; x:Name=&quot;MultiplyButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;5&quot;/&gt;&#10;        &#10;        &lt;Button Tag=&quot;4&quot; Click=&quot;DisplayNumber&quot; Content=&quot;4&quot; x:Name=&quot;FourButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;6&quot;/&gt;&#10;        &lt;Button Tag=&quot;5&quot; Click=&quot;DisplayNumber&quot; Content=&quot;5&quot; x:Name=&quot;FiveButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;6&quot;/&gt;&#10;        &lt;Button Tag=&quot;6&quot; Click=&quot;DisplayNumber&quot; Content=&quot;6&quot; x:Name=&quot;SixButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;6&quot;/&gt;&#10;        &lt;Button Click=&quot;Subtract&quot; Content=&quot;-&quot; x:Name=&quot;MinusButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;6&quot;/&gt;&#10;        &#10;        &lt;Button Tag=&quot;1&quot; Click=&quot;DisplayNumber&quot; Content=&quot;1&quot; x:Name=&quot;OneButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;7&quot;/&gt;&#10;        &lt;Button Tag=&quot;2&quot; Click=&quot;DisplayNumber&quot; Content=&quot;2&quot; x:Name=&quot;TwoButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;7&quot;/&gt;&#10;        &lt;Button Tag=&quot;3&quot; Click=&quot;DisplayNumber&quot; Content=&quot;3&quot; x:Name=&quot;ThreeButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;7&quot;/&gt;&#10;        &lt;Button Click=&quot;Add&quot; Content=&quot;+&quot; x:Name=&quot;PlusButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;7&quot;/&gt;&#10;        &#10;        &lt;Button Click=&quot;SwitchSigns&quot; Content=&quot;+/-&quot; x:Name=&quot;SwitchSignButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;8&quot;/&gt;&#10;        &lt;Button Tag=&quot;0&quot; Click=&quot;DisplayNumber&quot; Content=&quot;0&quot; x:Name=&quot;ZeroButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;8&quot;/&gt;&#10;        &lt;Button Click=&quot;Decimal&quot; Content=&quot;.&quot; x:Name=&quot;DecimalButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;8&quot;/&gt;&#10;        &lt;Button Click=&quot;Equals&quot; Content=&quot;=&quot; x:Name=&quot;EqualsButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;8&quot;/&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1559609132596" expanded="true" signature="625:5104" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;TextBox x:Name=&quot;TopTextBox&quot; Style=&quot;{StaticResource TextBoxStyle}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;4&quot;/&gt; &lt;TextBox x:Name=&quot;BottomTextBox&quot; Style=&quot;{StaticResource TextBoxStyle}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;2&quot; Grid.ColumnSpan=&quot;4&quot;&#10;                 Margin=&quot;0, 0, 0, 5&quot;/&gt; &lt;Button Content=&quot;&quot; x:Name=&quot;BlankButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button Click=&quot;SquareRoot&quot; Content=&quot;√&quot; x:Name=&quot;SqrRootButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button Click=&quot;Square&quot; Content=&quot;x^2&quot; x:Name=&quot;SqrButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button Click=&quot;Inverse&quot; Content=&quot;1/x&quot; x:Name=&quot;InverseButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;3&quot;/&gt; &lt;Button Click=&quot;Caret&quot; Content=&quot;^&quot; x:Name=&quot;CaretButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;4&quot;/&gt; &lt;Button Click=&quot;ClearDisplay&quot; Content=&quot;Clear&quot; x:Name=&quot;ClearButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;4&quot;/&gt; &lt;Button Click=&quot;BackSpace&quot; Content=&quot;Back&quot; x:Name=&quot;BackButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;4&quot;/&gt; &lt;Button Click=&quot;Divide&quot; Content=&quot;/&quot; x:Name=&quot;DivideButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;4&quot;/&gt; &lt;Button Tag=&quot;7&quot; Click=&quot;DisplayNumber&quot; Content=&quot;7&quot; x:Name=&quot;SevenButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;5&quot;/&gt; &lt;Button Tag=&quot;8&quot; Click=&quot;DisplayNumber&quot; Content=&quot;8&quot; x:Name=&quot;EightButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;5&quot;/&gt; &lt;Button Tag=&quot;9&quot; Click=&quot;DisplayNumber&quot; Content=&quot;9&quot; x:Name=&quot;NineButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;5&quot;/&gt; &lt;Button Click=&quot;Multiply&quot; Content=&quot;*&quot; x:Name=&quot;MultiplyButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;5&quot;/&gt; &lt;Button Tag=&quot;4&quot; Click=&quot;DisplayNumber&quot; Content=&quot;4&quot; x:Name=&quot;FourButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;6&quot;/&gt; &lt;Button Tag=&quot;5&quot; Click=&quot;DisplayNumber&quot; Content=&quot;5&quot; x:Name=&quot;FiveButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;6&quot;/&gt; &lt;Button Tag=&quot;6&quot; Click=&quot;DisplayNumber&quot; Content=&quot;6&quot; x:Name=&quot;SixButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;6&quot;/&gt; &lt;Button Click=&quot;Subtract&quot; Content=&quot;-&quot; x:Name=&quot;MinusButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;6&quot;/&gt; &lt;Button Tag=&quot;1&quot; Click=&quot;DisplayNumber&quot; Content=&quot;1&quot; x:Name=&quot;OneButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;7&quot;/&gt; &lt;Button Tag=&quot;2&quot; Click=&quot;DisplayNumber&quot; Content=&quot;2&quot; x:Name=&quot;TwoButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;7&quot;/&gt; &lt;Button Tag=&quot;3&quot; Click=&quot;DisplayNumber&quot; Content=&quot;3&quot; x:Name=&quot;ThreeButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;7&quot;/&gt; &lt;Button Click=&quot;Add&quot; Content=&quot;+&quot; x:Name=&quot;PlusButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;7&quot;/&gt; &lt;Button Click=&quot;SwitchSigns&quot; Content=&quot;+/-&quot; x:Name=&quot;SwitchSignButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;1&quot; Grid.Row=&quot;8&quot;/&gt; &lt;Button Tag=&quot;0&quot; Click=&quot;DisplayNumber&quot; Content=&quot;0&quot; x:Name=&quot;ZeroButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;8&quot;/&gt; &lt;Button Click=&quot;Decimal&quot; Content=&quot;.&quot; x:Name=&quot;DecimalButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;8&quot;/&gt; &lt;Button Click=&quot;Equals&quot; Content=&quot;=&quot; x:Name=&quot;EqualsButton&quot; Style=&quot;{StaticResource Button}&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;8&quot;/&gt;.../&gt;" />
+            <marker date="1559609132596" expanded="true" signature="640:964" ph="&lt;&lt;ColumnDefinition Width=&quot;20&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;20&quot;/&gt;.../&gt;" />
+            <marker date="1559609132596" expanded="true" signature="973:1451" ph="&lt;&lt;RowDefinition Height=&quot;20&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;20&quot;/&gt;.../&gt;" />
+            <marker date="1559609132596" expanded="true" signature="1595:1752" ph="&lt;.../&gt;" />
+            <marker date="1559609132596" expanded="true" signature="2541:2737" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculator/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+          <folding>
+            <marker date="1559609718396" expanded="true" signature="6:122" ph="..." />
+            <marker date="1559609718396" expanded="true" signature="144:17284" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="242:17282" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="647:932" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="749:922" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="813:891" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="1009:4092" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="1112:1172" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="1211:1272" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="1302:2169" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="1350:1822" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="1843:2155" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="2200:2477" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="2505:2782" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="2808:3514" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="2855:3174" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="3195:3500" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="3545:3822" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="4168:4715" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="4208:4705" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="4256:4462" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="4483:4691" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="4793:5247" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="4833:5025" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="5042:5237" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="5328:5793" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="5368:5565" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="5582:5783" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="5870:6368" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="5910:6123" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="6140:6358" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="6450:9889" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="6490:8770" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="6538:7632" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="6602:7450" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="6690:7207" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="6770:6940" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="6973:7181" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="7236:7428" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="7475:7614" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="7653:8756" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="7718:8572" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="7807:8326" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="7888:8060" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="8093:8300" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="8355:8550" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="8597:8738" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="8787:9879" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="8839:8961" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="9005:9236" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="9282:9563" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="9584:9865" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="9967:11013" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="10007:10494" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="10115:10339" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="10181:10321" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="10360:10480" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="10511:11003" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="10621:10847" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="10688:10829" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="10868:10989" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="11087:11886" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="11135:11195" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="11225:11487" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="11504:11852" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="11973:12306" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="12021:12081" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="12393:12726" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="12441:12501" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="12811:13141" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="12859:12919" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="13225:13788" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="13321:13390" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="13420:13553" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="13570:13778" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="13676:13764" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="13868:14899" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="13971:14376" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="14037:14362" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="14393:14757" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="14459:14743" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="14824:14889" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="14982:15384" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="15423:15575" ph="{...}" />
+            <marker date="1559609718396" expanded="true" signature="15623:17276" ph="{...}" />
           </folding>
         </state>
       </provider>
