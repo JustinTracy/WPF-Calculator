@@ -9,5 +9,6 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/backspace.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/example.png")]
 
 
