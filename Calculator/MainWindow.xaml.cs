@@ -60,19 +60,41 @@ namespace Calculator
             }
             if (isMultiplying)
             {
-                double total = Double.Parse(firstNum) * Double.Parse(secondNum);
-                TopTextBox.Clear();
-                secondNum = "";
-                BottomTextBox.Text = total.ToString();
-                firstNum = total.ToString();
+                if (counter > 1)
+                {
+                    double total = Double.Parse(firstNum) * Double.Parse(secondNum);
+                    TopTextBox.Clear();
+                    secondNum = total.ToString();
+                    BottomTextBox.Text = total.ToString();
+                    firstNum = total.ToString();
+                }
+                else
+                {
+                    double total = Double.Parse(firstNum) * Double.Parse(secondNum);
+                    TopTextBox.Clear();
+                    secondNum = "";
+                    BottomTextBox.Text = total.ToString();
+                    firstNum = total.ToString();
+                }
             }
             if (isDividing)
             {
-                double total = Double.Parse(firstNum) / Double.Parse(secondNum);
-                TopTextBox.Clear();
-                secondNum = "";
-                BottomTextBox.Text = total.ToString();
-                firstNum = total.ToString();
+                if (counter > 1)
+                {
+                    double total = Double.Parse(firstNum) / Double.Parse(secondNum);
+                    TopTextBox.Clear();
+                    secondNum = total.ToString();
+                    BottomTextBox.Text = total.ToString();
+                    firstNum = total.ToString();
+                }
+                else
+                {
+                    double total = Double.Parse(firstNum) / Double.Parse(secondNum);
+                    TopTextBox.Clear();
+                    secondNum = "";
+                    BottomTextBox.Text = total.ToString();
+                    firstNum = total.ToString();
+                }
             }
             if (isAdding)
             {
@@ -93,13 +115,24 @@ namespace Calculator
                     firstNum = total.ToString();
                 }
             }
-            if (isSubtracting)
+            else if (isSubtracting)
             {
-                double total = Double.Parse(firstNum) - Double.Parse(secondNum);
-                TopTextBox.Clear();
-                secondNum = "";
-                BottomTextBox.Text = total.ToString();
-                firstNum = total.ToString();
+                if (counter > 1)
+                {
+                    double total = Double.Parse(firstNum) - Double.Parse(secondNum);
+                    TopTextBox.Clear();
+                    secondNum = total.ToString();
+                    BottomTextBox.Text = total.ToString();
+                    firstNum = total.ToString();
+                }
+                else
+                {
+                    double total = Double.Parse(firstNum) - Double.Parse(secondNum);
+                    TopTextBox.Clear();
+                    secondNum = "";
+                    BottomTextBox.Text = total.ToString();
+                    firstNum = total.ToString();
+                }
             }
             
             isOnFirstNum = true;
@@ -326,7 +359,6 @@ namespace Calculator
             }
             else
             {
-                isAdding = true;
                 isOnFirstNum = false;
                 Equals(sender, routedEventArgs);
                 isAdding = true;
@@ -345,12 +377,28 @@ namespace Calculator
             {
                 firstNum = "0";
             }
-            ClearOperators();
-            isSubtracting = true;
-            isOnFirstNum = false;
-            TopTextBox.Text = firstNum;
-            BottomTextBox.Clear();
-            TopTextBox.AppendText(" - ");
+
+            if (counter < 1)
+            {
+                ClearOperators();
+                isSubtracting = true;
+                isOnFirstNum = false;
+                TopTextBox.Text = firstNum;
+                BottomTextBox.Clear();
+                TopTextBox.AppendText(" - ");
+            }
+            else
+            {
+                isOnFirstNum = false;
+                Equals(sender, routedEventArgs);
+                isSubtracting = true;
+                isOnFirstNum = false;
+                TopTextBox.Text = firstNum;
+                BottomTextBox.Clear();
+                TopTextBox.AppendText(" - ");
+            }
+
+            counter++;
         }
         
         private void Multiply(object sender, RoutedEventArgs routedEventArgs)
@@ -359,12 +407,28 @@ namespace Calculator
             {
                 firstNum = "0";
             }
-            ClearOperators();
-            isMultiplying = true;
-            isOnFirstNum = false;
-            TopTextBox.Text = firstNum;
-            BottomTextBox.Clear();
-            TopTextBox.AppendText(" * ");
+
+            if (counter < 1)
+            {
+                ClearOperators();
+                isMultiplying = true;
+                isOnFirstNum = false;
+                TopTextBox.Text = firstNum;
+                BottomTextBox.Clear();
+                TopTextBox.AppendText(" * ");
+            }
+            else
+            {
+                isOnFirstNum = false;
+                Equals(sender, routedEventArgs);
+                isMultiplying = true;
+                isOnFirstNum = false;
+                TopTextBox.Text = firstNum;
+                BottomTextBox.Clear();
+                TopTextBox.AppendText(" * ");
+            }
+
+            counter++;
         }
         
         private void Divide(object sender, RoutedEventArgs routedEventArgs)
@@ -373,12 +437,28 @@ namespace Calculator
             {
                 firstNum = "0";
             }
-            ClearOperators();
-            isDividing = true;
-            isOnFirstNum = false;
-            TopTextBox.Text = firstNum;
-            BottomTextBox.Clear();
-            TopTextBox.AppendText(" / ");
+
+            if (counter < 1)
+            {
+                ClearOperators();
+                isDividing = true;
+                isOnFirstNum = false;
+                TopTextBox.Text = firstNum;
+                BottomTextBox.Clear();
+                TopTextBox.AppendText(" / ");
+            }
+            else
+            {
+                isOnFirstNum = false;
+                Equals(sender, routedEventArgs);
+                isDividing = true;
+                isOnFirstNum = false;
+                TopTextBox.Text = firstNum;
+                BottomTextBox.Clear();
+                TopTextBox.AppendText(" / ");
+            }
+
+            counter++;
         }
 
         private void DisplayNumber(object sender, RoutedEventArgs routedEventArgs)
