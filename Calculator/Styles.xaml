@@ -3,6 +3,7 @@
                     x:Class="Calculator.Styles">
     
     <Style TargetType="Button" x:Key="Button">
+        <Setter Property="IsTabStop" Value="False"/>
         <Setter Property="Foreground" Value="Black"/>
         <Setter Property="Width" Value="72"/>
         <Setter Property="Height" Value="66.66"/>

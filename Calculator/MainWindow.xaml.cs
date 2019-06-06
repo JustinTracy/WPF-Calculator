@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 using System.Windows.Media;
 
 namespace Calculator
@@ -23,6 +24,107 @@ namespace Calculator
         {
             InitializeComponent();
             SetUniqueColors();
+            AddKeyEvents();
+        }
+
+        private void AddKeyEvents()
+        {
+            KeyDown += (sender, args) =>
+            {
+                switch (args.Key)
+                {
+                    case Key.NumPad1:
+                        DisplayNumber(1);
+                        break;
+                    case Key.NumPad2:
+                        DisplayNumber(2);
+                        break;
+                    case Key.NumPad3:
+                        DisplayNumber(3);
+                        break;
+                    case Key.NumPad4:
+                        DisplayNumber(4);
+                        break;
+                    case Key.NumPad5:
+                        DisplayNumber(5);
+                        break;
+                    case Key.NumPad6:
+                        DisplayNumber(6);
+                        break;
+                    case Key.NumPad7:
+                        DisplayNumber(7);
+                        break;
+                    case Key.NumPad8:
+                        DisplayNumber(8);
+                        break;
+                    case Key.NumPad9:
+                        DisplayNumber(9);
+                        break;
+                    case Key.NumPad0:
+                        DisplayNumber(0);
+                        break;
+                    case Key.Back:
+                        BackSpace(sender, args);
+                        break;
+                    case Key.Enter:
+                        Equals(sender, args);
+                        break;
+                    case Key.Add:
+                        Add(sender, args);
+                        break;
+                    case Key.Subtract:
+                        Subtract(sender, args);
+                        break;
+                    case Key.Multiply:
+                        Multiply(sender, args);
+                        break;
+                    case Key.Divide:
+                        Divide(sender, args);
+                        break;
+                    case Key.D1:
+                        DisplayNumber(1);
+                        break;
+                    case Key.D2:
+                        DisplayNumber(2);
+                        break;
+                    case Key.D3:
+                        DisplayNumber(3);
+                        break;
+                    case Key.D4:
+                        DisplayNumber(4);
+                        break;
+                    case Key.D5:
+                        DisplayNumber(5);
+                        break;
+                    case Key.D6:
+                        DisplayNumber(6);
+                        break;
+                    case Key.D7:
+                        DisplayNumber(7);
+                        break;
+                    case Key.D8:
+                        DisplayNumber(8);
+                        break;
+                    case Key.D9:
+                        DisplayNumber(9);
+                        break;
+                    case Key.D0:
+                        DisplayNumber(0);
+                        break;
+                    case Key.Decimal:
+                        Decimal(sender, args);
+                        break;
+                    case Key.OemPeriod:
+                        Decimal(sender, args);
+                        break;
+                    case Key.OemMinus:
+                        Subtract(sender, args);
+                        break;
+                    case Key.OemPlus:
+                        Add(sender, args);
+                        break;
+                }
+            };
         }
 
         private void Equals(object sender, RoutedEventArgs routedEventArgs)
@@ -143,6 +245,7 @@ namespace Calculator
             isCarreting = false;
             power = "";
             counter = 0;
+            EqualsButton.IsTabStop = false;
         }
 
         private void Caret(object sender, RoutedEventArgs routedEventArgs)
@@ -162,6 +265,7 @@ namespace Calculator
                     isCarreting = true;
                 }
             }
+            CaretButton.IsTabStop = false;
         }
 
         private void Inverse(object sender, RoutedEventArgs routedEventArgs)
@@ -178,6 +282,7 @@ namespace Calculator
                 secondNum = (1 / Double.Parse(secondNum)).ToString();
                 BottomTextBox.Text = firstNum;
             }
+            InverseButton.IsTabStop = false;
         }
 
         private void SquareRoot(object sender, RoutedEventArgs routedEventArgs)
@@ -194,6 +299,7 @@ namespace Calculator
                 secondNum = Math.Sqrt(Double.Parse(secondNum)).ToString();
                 BottomTextBox.Text = secondNum;
             }
+            SqrRootButton.IsTabStop = false;
         }
 
         private void Square(object sender, RoutedEventArgs routedEventArgs)
@@ -210,6 +316,7 @@ namespace Calculator
                 secondNum = (Double.Parse(secondNum) * Double.Parse(secondNum)).ToString();
                 BottomTextBox.Text = secondNum;
             }
+            SqrButton.IsTabStop = false;
         }
 
         private void SwitchSigns(object sender, RoutedEventArgs routedEventArgs)
@@ -301,6 +408,7 @@ namespace Calculator
                     BottomTextBox.Text = currentString + power;
                 }
             }
+            SwitchSignButton.IsTabStop = false;
         }
 
         private void Decimal(object sender, RoutedEventArgs routedEventArgs)
@@ -339,6 +447,7 @@ namespace Calculator
                     BottomTextBox.Text = "0.";
                 }
             }
+            DecimalButton.IsTabStop = false;
         }
 
         private void Add(object sender, RoutedEventArgs routedEventArgs)
@@ -370,6 +479,7 @@ namespace Calculator
             }
 
             counter++;
+            PlusButton.IsTabStop = false;
         }
         
         private void Subtract(object sender, RoutedEventArgs routedEventArgs)
@@ -401,6 +511,7 @@ namespace Calculator
             }
 
             counter++;
+            MinusButton.IsTabStop = false;
         }
         
         private void Multiply(object sender, RoutedEventArgs routedEventArgs)
@@ -432,6 +543,7 @@ namespace Calculator
             }
 
             counter++;
+            MultiplyButton.IsTabStop = false;
         }
         
         private void Divide(object sender, RoutedEventArgs routedEventArgs)
@@ -463,6 +575,7 @@ namespace Calculator
             }
 
             counter++;
+            DivideButton.IsTabStop = false;
         }
 
         private void DisplayNumber(object sender, RoutedEventArgs routedEventArgs)
@@ -486,6 +599,50 @@ namespace Calculator
                     secondNum = BottomTextBox.Text;
                 }
             }
+
+            OneButton.IsTabStop = false;
+            TwoButton.IsTabStop = false;
+            ThreeButton.IsTabStop = false;
+            FourButton.IsTabStop = false;
+            FiveButton.IsTabStop = false;
+            SixButton.IsTabStop = false;
+            SevenButton.IsTabStop = false;
+            EightButton.IsTabStop = false;
+            NineButton.IsTabStop = false;
+            ZeroButton.IsTabStop = false;
+        }
+        
+        private void DisplayNumber(int num)
+        {
+            if (isCarreting)
+            {
+                power += num.ToString();
+            }
+            if (isOnFirstNum)
+            {
+                BottomTextBox.AppendText(num.ToString());
+                firstNum = BottomTextBox.Text;
+                Console.WriteLine(1);
+            }
+            else
+            {
+                BottomTextBox.AppendText(num.ToString());
+                if (!isCarreting)
+                {
+                    secondNum = BottomTextBox.Text;
+                }
+            }
+            
+            OneButton.IsTabStop = false;
+            TwoButton.IsTabStop = false;
+            ThreeButton.IsTabStop = false;
+            FourButton.IsTabStop = false;
+            FiveButton.IsTabStop = false;
+            SixButton.IsTabStop = false;
+            SevenButton.IsTabStop = false;
+            EightButton.IsTabStop = false;
+            NineButton.IsTabStop = false;
+            ZeroButton.IsTabStop = false;
         }
 
         private void BackSpace(object sender, RoutedEventArgs routedEventArgs)
@@ -519,6 +676,8 @@ namespace Calculator
             {
                 isCarreting = false;
             }
+
+            BackButton.IsTabStop = false;
         }
 
         private void ClearDisplay(object sender, RoutedEventArgs routedEventArgs)
@@ -571,7 +730,6 @@ namespace Calculator
             PlusButton.Background = operatorColor;
 
             EqualsButton.Background = equalsColor;
-
             BlankButton.Background = functionColor;
             CaretButton.Background = functionColor;
             SqrRootButton.Background = functionColor;
